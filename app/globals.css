@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #171717;
+  --background: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Twemoji 국기 이미지 스타일 */
+.twemoji-flag {
+  width: 110px;
+  height: 110px;
+  display: block;
+}
+
+/* Level 3 애국가 이모지 스타일 (태극기 포함) */
+.kw-anthem-emoji .twemoji-flag {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  vertical-align: middle;
+}

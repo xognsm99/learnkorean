@@ -1,0 +1,3502 @@
+[
+  {
+    "id": "ev0001",
+    "emoji": "🚗",
+    "ko": "자동차",
+    "en": "car",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0002",
+    "emoji": "🚌",
+    "ko": "버스",
+    "en": "bus",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0003",
+    "emoji": "🚕",
+    "ko": "택시",
+    "en": "taxi",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0004",
+    "emoji": "🚲",
+    "ko": "자전거",
+    "en": "bicycle",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0005",
+    "emoji": "🏍️",
+    "ko": "오토바이",
+    "en": "motorcycle",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0006",
+    "emoji": "🚆",
+    "ko": "기차",
+    "en": "train",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0007",
+    "emoji": "🚇",
+    "ko": "지하철",
+    "en": "subway",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0008",
+    "emoji": "🚅",
+    "ko": "KTX",
+    "en": "KTX",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0009",
+    "emoji": "🚚",
+    "ko": "트럭",
+    "en": "truck",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0010",
+    "emoji": "🚓",
+    "ko": "경찰차",
+    "en": "police car",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0011",
+    "emoji": "🚑",
+    "ko": "구급차",
+    "en": "ambulance",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0012",
+    "emoji": "🚒",
+    "ko": "소방차",
+    "en": "fire truck",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0013",
+    "emoji": "🚜",
+    "ko": "트랙터",
+    "en": "tractor",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0014",
+    "emoji": "🚢",
+    "ko": "배",
+    "en": "ship",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0015",
+    "emoji": "⛵️",
+    "ko": "돛단배",
+    "en": "sailboat",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0016",
+    "emoji": "🛶",
+    "ko": "카누",
+    "en": "canoe",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0017",
+    "emoji": "🚤",
+    "ko": "쾌속정",
+    "en": "speedboat",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0018",
+    "emoji": "✈️",
+    "ko": "비행기",
+    "en": "airplane",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0019",
+    "emoji": "🚁",
+    "ko": "헬리콥터",
+    "en": "helicopter",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0020",
+    "emoji": "🚀",
+    "ko": "로켓",
+    "en": "rocket",
+    "category": "교통",
+    "level": 1
+  },
+  {
+    "id": "ev0021",
+    "emoji": "🍎",
+    "ko": "사과",
+    "en": "apple",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0022",
+    "emoji": "🍌",
+    "ko": "바나나",
+    "en": "banana",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0023",
+    "emoji": "🍇",
+    "ko": "포도",
+    "en": "grapes",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0024",
+    "emoji": "🍓",
+    "ko": "딸기",
+    "en": "strawberry",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0025",
+    "emoji": "🍉",
+    "ko": "수박",
+    "en": "watermelon",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0026",
+    "emoji": "🍍",
+    "ko": "파인애플",
+    "en": "pineapple",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0027",
+    "emoji": "🍑",
+    "ko": "복숭아",
+    "en": "peach",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0028",
+    "emoji": "🍒",
+    "ko": "체리",
+    "en": "cherry",
+    "category": "음식",
+    "level": 1
+  },
+    {
+    "id": "ev0030",
+    "emoji": "🍋",
+    "ko": "레몬",
+    "en": "lemon",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0031",
+    "emoji": "🥝",
+    "ko": "키위",
+    "en": "kiwi",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0032",
+    "emoji": "🍅",
+    "ko": "토마토",
+    "en": "tomato",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0033",
+    "emoji": "🥕",
+    "ko": "당근",
+    "en": "carrot",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0034",
+    "emoji": "🌽",
+    "ko": "옥수수",
+    "en": "corn",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0035",
+    "emoji": "🥔",
+    "ko": "감자",
+    "en": "potato",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0036",
+    "emoji": "🥐",
+    "ko": "크루아상",
+    "en": "croissant",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0037",
+    "emoji": "🍞",
+    "ko": "빵",
+    "en": "bread",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0038",
+    "emoji": "🧀",
+    "ko": "치즈",
+    "en": "cheese",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0039",
+    "emoji": "🥚",
+    "ko": "달걀",
+    "en": "egg",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0040",
+    "emoji": "🥓",
+    "ko": "베이컨",
+    "en": "bacon",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0041",
+    "emoji": "🍔",
+    "ko": "햄버거",
+    "en": "burger",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0042",
+    "emoji": "🍟",
+    "ko": "감자튀김",
+    "en": "fries",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0043",
+    "emoji": "🍕",
+    "ko": "피자",
+    "en": "pizza",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0044",
+    "emoji": "🍣",
+    "ko": "초밥",
+    "en": "sushi",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0045",
+    "emoji": "🍜",
+    "ko": "라면",
+    "en": "ramen",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0046",
+    "emoji": "🐶",
+    "ko": "강아지",
+    "en": "dog",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0047",
+    "emoji": "🐱",
+    "ko": "고양이",
+    "en": "cat",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0048",
+    "emoji": "🐭",
+    "ko": "쥐",
+    "en": "mouse",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0049",
+    "emoji": "🐹",
+    "ko": "햄스터",
+    "en": "hamster",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0050",
+    "emoji": "🐰",
+    "ko": "토끼",
+    "en": "rabbit",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0051",
+    "emoji": "🦊",
+    "ko": "여우",
+    "en": "fox",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0052",
+    "emoji": "🐻",
+    "ko": "곰",
+    "en": "bear",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0053",
+    "emoji": "🐼",
+    "ko": "판다",
+    "en": "panda",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0054",
+    "emoji": "🐨",
+    "ko": "코알라",
+    "en": "koala",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0055",
+    "emoji": "🐯",
+    "ko": "호랑이",
+    "en": "tiger",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0056",
+    "emoji": "🦁",
+    "ko": "사자",
+    "en": "lion",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0057",
+    "emoji": "🐮",
+    "ko": "소",
+    "en": "cow",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0058",
+    "emoji": "🐷",
+    "ko": "돼지",
+    "en": "pig",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0059",
+    "emoji": "🐸",
+    "ko": "개구리",
+    "en": "frog",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0060",
+    "emoji": "🐵",
+    "ko": "원숭이",
+    "en": "monkey",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0061",
+    "emoji": "🐔",
+    "ko": "닭",
+    "en": "chicken",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0062",
+    "emoji": "🐧",
+    "ko": "펭귄",
+    "en": "penguin",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0063",
+    "emoji": "🐦",
+    "ko": "새",
+    "en": "bird",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0064",
+    "emoji": "🦆",
+    "ko": "오리",
+    "en": "duck",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0065",
+    "emoji": "🦉",
+    "ko": "부엉이",
+    "en": "owl",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0066",
+    "emoji": "🐴",
+    "ko": "말",
+    "en": "horse",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0067",
+    "emoji": "🐝",
+    "ko": "벌",
+    "en": "bee",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0068",
+    "emoji": "🦋",
+    "ko": "나비",
+    "en": "butterfly",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0069",
+    "emoji": "🐢",
+    "ko": "거북이",
+    "en": "turtle",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0070",
+    "emoji": "🐍",
+    "ko": "뱀",
+    "en": "snake",
+    "category": "동물",
+    "level": 1
+  },
+  {
+    "id": "ev0071",
+    "emoji": "📱",
+    "ko": "휴대폰",
+    "en": "mobile phone",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0072",
+    "emoji": "💻",
+    "ko": "노트북",
+    "en": "laptop",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0073",
+    "emoji": "🖥️",
+    "ko": "컴퓨터",
+    "en": "computer",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0074",
+    "emoji": "⌨️",
+    "ko": "키보드",
+    "en": "keyboard",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0075",
+    "emoji": "🖨️",
+    "ko": "프린터",
+    "en": "printer",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0076",
+    "emoji": "📷",
+    "ko": "카메라",
+    "en": "camera",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0077",
+    "emoji": "🎥",
+    "ko": "비디오 카메라",
+    "en": "video camera",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0078",
+    "emoji": "📺",
+    "ko": "텔레비전",
+    "en": "television",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0079",
+    "emoji": "📻",
+    "ko": "라디오",
+    "en": "radio",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0080",
+    "emoji": "⏰",
+    "ko": "시계",
+    "en": "clock",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0081",
+    "emoji": "🔑",
+    "ko": "열쇠",
+    "en": "key",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0082",
+    "emoji": "🔒",
+    "ko": "자물쇠",
+    "en": "lock",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0083",
+    "emoji": "💡",
+    "ko": "전구",
+    "en": "light bulb",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0084",
+    "emoji": "🔦",
+    "ko": "손전등",
+    "en": "flashlight",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0085",
+    "emoji": "📚",
+    "ko": "책",
+    "en": "book",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0086",
+    "emoji": "🏫",
+    "ko": "학교",
+    "en": "school",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0087",
+    "emoji": "🏥",
+    "ko": "병원",
+    "en": "hospital",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0088",
+    "emoji": "🏦",
+    "ko": "은행",
+    "en": "bank",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0089",
+    "emoji": "🏢",
+    "ko": "회사",
+    "en": "office building",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0090",
+    "emoji": "🏠",
+    "ko": "집",
+    "en": "house",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0091",
+    "emoji": "🏡",
+    "ko": "주택",
+    "en": "home",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0092",
+    "emoji": "🏪",
+    "ko": "편의점",
+    "en": "convenience store",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0093",
+    "emoji": "🏬",
+    "ko": "백화점",
+    "en": "department store",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0094",
+    "emoji": "🏭",
+    "ko": "공장",
+    "en": "factory",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0095",
+    "emoji": "🏨",
+    "ko": "호텔",
+    "en": "hotel",
+    "category": "장소",
+    "level": 1
+  },
+  {
+    "id": "ev0096",
+    "emoji": "🌸",
+    "ko": "꽃",
+    "en": "flower",
+    "category": "자연",
+    "level": 1
+  },
+  {
+    "id": "ev0097",
+    "emoji": "🌳",
+    "ko": "나무",
+    "en": "tree",
+    "category": "자연",
+    "level": 1
+  },
+  {
+    "id": "ev0098",
+    "emoji": "🌲",
+    "ko": "소나무",
+    "en": "pine tree",
+    "category": "자연",
+    "level": 1
+  },
+  {
+    "id": "ev0099",
+    "emoji": "☀️",
+    "ko": "태양",
+    "en": "sun",
+    "category": "자연",
+    "level": 1
+  },
+  {
+    "id": "ev0100",
+    "emoji": "🌙",
+    "ko": "달",
+    "en": "moon",
+    "category": "자연",
+    "level": 1
+  },
+  {
+    "id": "ev0101",
+    "emoji": "🌏",
+    "ko": "지구",
+    "en": "earth",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0102",
+    "emoji": "🏖️",
+    "ko": "파라솔",
+    "en": "Parasol",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0103",
+    "emoji": "🏝️",
+    "ko": "야쟈수",
+    "en": "palm tree",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0104",
+    "emoji": "⛺",
+    "ko": "텐트",
+    "en": "Tent",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0105",
+    "emoji": "♨️",
+    "ko": "온천",
+    "en": "hot spring, thermal spring",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0106",
+    "emoji": "🎢",
+    "ko": "롤러코스터",
+    "en": "Roller coaster",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0107",
+    "emoji": "💈",
+    "ko": "이발소",
+    "en": "a barber shop",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0108",
+    "emoji": "🚏",
+    "ko": "버스정류장",
+    "en": "bus stop",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0109",
+    "emoji": "🛣️",
+    "ko": "고속도로",
+    "en": "an expressway",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0110",
+    "emoji": "⛽",
+    "ko": "고속도로",
+    "en": "a gas station",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0111",
+    "emoji": "🚡",
+    "ko": "케이블카",
+    "en": "cable car",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0112",
+    "emoji": "🛰️",
+    "ko": "인공위성",
+    "en": "Satellite",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0113",
+    "emoji": "🚦",
+    "ko": "신호등",
+    "en": "Traffic light",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0114",
+    "emoji": "⚓",
+    "ko": "닻",
+    "en": "anchor",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0115",
+    "emoji": "⚓",
+    "ko": "닻",
+    "en": "anchor",
+    "category": "여행/장소",
+    "level": 1
+  },
+  {
+    "id": "ev0116",
+    "emoji": "🌰",
+    "ko": "밤",
+    "en": "chestnut",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0117",
+    "emoji": "🥜",
+    "ko": "땅콩",
+    "en": "peanut",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0118",
+    "emoji": "🥞",
+    "ko": "팬케이크",
+    "en": "pancake",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0119",
+    "emoji": "🍖",
+    "ko": "고기",
+    "en": "meat",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0120",
+    "emoji": "🌭",
+    "ko": "핫도그",
+    "en": "hot dog",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0121",
+    "emoji": "🍳",
+    "ko": "계란 프라이",
+    "en": "fried egg",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0122",
+    "emoji": "🥗",
+    "ko": "샐러드",
+    "en": "salad",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0123",
+    "emoji": "🍿",
+    "ko": "팝콘",
+    "en": "popcorn",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0124",
+    "emoji": "🍱",
+    "ko": "도시락",
+    "en": "bento box",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0125",
+    "emoji": "🍘",
+    "ko": "전병",
+    "en": "rice cracker",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0126",
+    "emoji": "🍙",
+    "ko": "주먹밥",
+    "en": "rice ball",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0127",
+    "emoji": "🍚",
+    "ko": "밥",
+    "en": "rice",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0128",
+    "emoji": "🍛",
+    "ko": "카레",
+    "en": "curry",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0129",
+    "emoji": "🍠",
+    "ko": "고구마",
+    "en": "sweet potato",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0130",
+    "emoji": "🍢",
+    "ko": "오뎅",
+    "en": "oden",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0131",
+    "emoji": "🍤",
+    "ko": "새우튀김",
+    "en": "fried shrimp",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0132",
+    "emoji": "🍥",
+    "ko": "어묵",
+    "en": "fish cake",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0133",
+    "emoji": "🍡",
+    "ko": "경단",
+    "en": "dango",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0134",
+    "emoji": "🍦",
+    "ko": "아이스크림",
+    "en": "ice cream",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0135",
+    "emoji": "🍧",
+    "ko": "빙수",
+    "en": "shaved ice",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0136",
+    "emoji": "🍨",
+    "ko": "아이스크림 컵",
+    "en": "ice cream cup",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0137",
+    "emoji": "🍩",
+    "ko": "도넛",
+    "en": "donut",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0138",
+    "emoji": "🍪",
+    "ko": "쿠키",
+    "en": "cookie",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0139",
+    "emoji": "🍫",
+    "ko": "초콜릿",
+    "en": "chocolate",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0140",
+    "emoji": "🍬",
+    "ko": "사탕",
+    "en": "candy",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0141",
+    "emoji": "🍭",
+    "ko": "막대사탕",
+    "en": "lollipop",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0142",
+    "emoji": "🍯",
+    "ko": "꿀",
+    "en": "honey",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0143",
+    "emoji": "🍵",
+    "ko": "녹차",
+    "en": "green tea",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0144",
+    "emoji": "🍶",
+    "ko": "사케",
+    "en": "sake",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0145",
+    "emoji": "🍷",
+    "ko": "와인",
+    "en": "wine",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0146",
+    "emoji": "🍸",
+    "ko": "칵테일",
+    "en": "cocktail",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0147",
+    "emoji": "🍹",
+    "ko": "열대 음료",
+    "en": "tropical drink",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0148",
+    "emoji": "🍻",
+    "ko": "맥주",
+    "en": "beer",
+    "category": "음식",
+    "level": 1
+  },
+  {
+    "id": "ev0149",
+    "emoji": "🥄",
+    "ko": "숟가락",
+    "en": "spoon",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0150",
+    "emoji": "🔪",
+    "ko": "칼",
+    "en": "knife",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0151",
+    "emoji": "🎄",
+    "ko": "크리스마스 트리",
+    "en": "Christmas tree",
+    "category": "행사",
+    "level": 1
+  },
+  {
+    "id": "ev0152",
+    "emoji": "🎆",
+    "ko": "불꽃놀이",
+    "en": "fireworks",
+    "category": "행사",
+    "level": 1
+  },
+  {
+    "id": "ev0153",
+    "emoji": "🎃",
+    "ko": "할로윈",
+    "en": "Halloween",
+    "category": "행사",
+    "level": 1
+  },
+  {
+    "id": "ev0154",
+    "emoji": "🎈",
+    "ko": "풍선",
+    "en": "balloon",
+    "category": "행사",
+    "level": 1
+  },
+  {
+    "id": "ev0155",
+    "emoji": "🎁",
+    "ko": "선물",
+    "en": "gift",
+    "category": "행사",
+    "level": 1
+  },
+  {
+    "id": "ev0156",
+    "emoji": "🏆",
+    "ko": "트로피",
+    "en": "trophy",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0157",
+    "emoji": "🥇",
+    "ko": "금메달",
+    "en": "gold medal",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0158",
+    "emoji": "🥈",
+    "ko": "은메달",
+    "en": "silver medal",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0159",
+    "emoji": "🥉",
+    "ko": "동메달",
+    "en": "bronze medal",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0160",
+    "emoji": "⚽",
+    "ko": "축구공",
+    "en": "soccer ball",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0161",
+    "emoji": "⚾",
+    "ko": "야구공",
+    "en": "baseball",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0162",
+    "emoji": "🏀",
+    "ko": "농구공",
+    "en": "basketball",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0163",
+    "emoji": "🏐",
+    "ko": "배구공",
+    "en": "volleyball",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0164",
+    "emoji": "🏈",
+    "ko": "미식축구공",
+    "en": "football",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0165",
+    "emoji": "🏉",
+    "ko": "럭비공",
+    "en": "rugby ball",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0166",
+    "emoji": "🎾",
+    "ko": "테니스",
+    "en": "tennis",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0167",
+    "emoji": "🎳",
+    "ko": "볼링",
+    "en": "bowling",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0168",
+    "emoji": "🏓",
+    "ko": "탁구",
+    "en": "ping pong",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0169",
+    "emoji": "🏸",
+    "ko": "배드민턴",
+    "en": "badminton",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0170",
+    "emoji": "🥊",
+    "ko": "권투",
+    "en": "boxing",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0171",
+    "emoji": "🥋",
+    "ko": "태권도",
+    "en": "martial arts",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0172",
+    "emoji": "⛳",
+    "ko": "골프",
+    "en": "golf",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0173",
+    "emoji": "⛸️",
+    "ko": "스케이트",
+    "en": "ice skate",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0174",
+    "emoji": "🎣",
+    "ko": "낚시",
+    "en": "fishing",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0175",
+    "emoji": "🎿",
+    "ko": "스키",
+    "en": "ski",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0176",
+    "emoji": "🎱",
+    "ko": "당구",
+    "en": "billiards",
+    "category": "스포츠",
+    "level": 1
+  },
+  {
+    "id": "ev0177",
+    "emoji": "🎰",
+    "ko": "슬롯머신",
+    "en": "slot machine",
+    "category": "오락",
+    "level": 1
+  },
+  {
+    "id": "ev0178",
+    "emoji": "🎲",
+    "ko": "주사위",
+    "en": "dice",
+    "category": "오락",
+    "level": 1
+  },
+  {
+    "id": "ev0179",
+    "emoji": "🎴",
+    "ko": "화투",
+    "en": "flower cards",
+    "category": "오락",
+    "level": 1
+  },
+  {
+    "id": "ev0180",
+    "emoji": "👨‍🏫",
+    "ko": "선생님",
+    "en": "teacher",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0181",
+    "emoji": "👨‍🌾",
+    "ko": "농부",
+    "en": "farmer",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0182",
+    "emoji": "👨‍🍳",
+    "ko": "요리사",
+    "en": "chef",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0183",
+    "emoji": "👨‍🔧",
+    "ko": "정비사",
+    "en": "mechanic",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0184",
+    "emoji": "👨‍🏭",
+    "ko": "공장 근로자",
+    "en": "factory worker",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0185",
+    "emoji": "👨‍💼",
+    "ko": "회사원",
+    "en": "office worker",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0186",
+    "emoji": "👨‍🔬",
+    "ko": "과학자",
+    "en": "scientist",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0187",
+    "emoji": "👨‍💻",
+    "ko": "프로그래머",
+    "en": "programmer",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0188",
+    "emoji": "👨‍🎤",
+    "ko": "가수",
+    "en": "singer",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0189",
+    "emoji": "👨‍🎨",
+    "ko": "화가",
+    "en": "artist",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0190",
+    "emoji": "👨‍✈️",
+    "ko": "조종사",
+    "en": "pilot",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0191",
+    "emoji": "👨‍🚀",
+    "ko": "우주비행사",
+    "en": "astronaut",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0192",
+    "emoji": "👨‍🚒",
+    "ko": "소방관",
+    "en": "firefighter",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0193",
+    "emoji": "👮",
+    "ko": "경찰관",
+    "en": "police officer",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0194",
+    "emoji": "🕵️‍♂️",
+    "ko": "탐정",
+    "en": "detective",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0195",
+    "emoji": "💂",
+    "ko": "경비원",
+    "en": "guard",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0196",
+    "emoji": "👷",
+    "ko": "건설 노동자",
+    "en": "construction worker",
+    "category": "직업",
+    "level": 1
+  },
+  {
+    "id": "ev0197",
+    "emoji": "🎅",
+    "ko": "산타클로스",
+    "en": "Santa Claus",
+    "category": "인물",
+    "level": 1
+  },
+  {
+    "id": "ev0198",
+    "emoji": "👔",
+    "ko": "넥타이",
+    "en": "necktie",
+    "category": "의류",
+    "level": 1
+  },
+  {
+    "id": "ev0199",
+    "emoji": "👖",
+    "ko": "청바지",
+    "en": "jeans",
+    "category": "의류",
+    "level": 1
+  },
+  {
+    "id": "ev0200",
+    "emoji": "👗",
+    "ko": "드레스",
+    "en": "dress",
+    "category": "의류",
+    "level": 1
+  },
+  {
+    "id": "ev0201",
+    "emoji": "👘",
+    "ko": "기모노",
+    "en": "kimono",
+    "category": "의류",
+    "level": 1
+  },
+  {
+    "id": "ev0202",
+    "emoji": "👙",
+    "ko": "비키니",
+    "en": "bikini",
+    "category": "의류",
+    "level": 1
+  },
+  {
+    "id": "ev0203",
+    "emoji": "🎒",
+    "ko": "가방",
+    "en": "backpack",
+    "category": "의류",
+    "level": 1
+  },
+  {
+    "id": "ev0204",
+    "emoji": "👟",
+    "ko": "운동화",
+    "en": "sneakers",
+    "category": "의류",
+    "level": 1
+  },
+  {
+    "id": "ev0205",
+    "emoji": "👢",
+    "ko": "부츠",
+    "en": "boots",
+    "category": "의류",
+    "level": 1
+  },
+  {
+    "id": "ev0206",
+    "emoji": "💄",
+    "ko": "립스틱",
+    "en": "lipstick",
+    "category": "미용",
+    "level": 1
+  },
+  {
+    "id": "ev0207",
+    "emoji": "💍",
+    "ko": "반지",
+    "en": "ring",
+    "category": "액세서리",
+    "level": 1
+  },
+  {
+    "id": "ev0208",
+    "emoji": "💎",
+    "ko": "다이아몬드",
+    "en": "diamond",
+    "category": "액세서리",
+    "level": 1
+  },
+  {
+    "id": "ev0209",
+    "emoji": "📠",
+    "ko": "팩스",
+    "en": "fax machine",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0210",
+    "emoji": "🔋",
+    "ko": "배터리",
+    "en": "battery",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0211",
+    "emoji": "📼",
+    "ko": "비디오테이프",
+    "en": "videotape",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0212",
+    "emoji": "🕯️",
+    "ko": "양초",
+    "en": "candle",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0213",
+    "emoji": "🔨",
+    "ko": "망치",
+    "en": "hammer",
+    "category": "도구",
+    "level": 1
+  },
+  {
+    "id": "ev0214",
+    "emoji": "⛏️",
+    "ko": "곡괭이",
+    "en": "pickaxe",
+    "category": "도구",
+    "level": 1
+  },
+  {
+    "id": "ev0215",
+    "emoji": "💣",
+    "ko": "폭탄",
+    "en": "bomb",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0216",
+    "emoji": "🔧",
+    "ko": "렌치",
+    "en": "wrench",
+    "category": "도구",
+    "level": 1
+  },
+  {
+    "id": "ev0217",
+    "emoji": "⚙️",
+    "ko": "톱니바퀴",
+    "en": "gear",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0218",
+    "emoji": "🚽",
+    "ko": "변기",
+    "en": "toilet",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0219",
+    "emoji": "🛁",
+    "ko": "욕조",
+    "en": "bathtub",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0220",
+    "emoji": "🛒",
+    "ko": "쇼핑카트",
+    "en": "shopping cart",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0221",
+    "emoji": "🗿",
+    "ko": "모아이",
+    "en": "moai",
+    "category": "사물",
+    "level": 1
+  },
+  {
+    "id": "ev0222",
+    "emoji": "👓",
+    "ko": "안경",
+    "en": "glasses",
+    "category": "액세서리",
+    "level": 1
+  },
+  {
+    "id": "ev0223",
+    "emoji": "🕶️",
+    "ko": "선글라스",
+    "en": "sunglasses",
+    "category": "액세서리",
+    "level": 1
+  },
+  {
+    "id": "ev0224",
+    "emoji": "🏧",
+    "ko": "ATM",
+    "en": "ATM",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0225",
+    "emoji": "🚹",
+    "ko": "남자 화장실",
+    "en": "men's room",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0226",
+    "emoji": "🚺",
+    "ko": "여자 화장실",
+    "en": "women's room",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0227",
+    "emoji": "🚻",
+    "ko": "화장실",
+    "en": "restroom",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0228",
+    "emoji": "🚼",
+    "ko": "아기 방",
+    "en": "baby room",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0229",
+    "emoji": "👣",
+    "ko": "발자국",
+    "en": "footprints",
+    "category": "기타",
+    "level": 1
+  },
+  {
+    "id": "ev0230",
+    "emoji": "⚠️",
+    "ko": "주의",
+    "en": "warning",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0231",
+    "emoji": "⛔",
+    "ko": "진입 금지",
+    "en": "no entry",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0232",
+    "emoji": "🚳",
+    "ko": "자전거 금지",
+    "en": "no bicycles",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0233",
+    "emoji": "🚭",
+    "ko": "금연",
+    "en": "no smoking",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0234",
+    "emoji": "🚯",
+    "ko": "쓰레기 투기 금지",
+    "en": "no littering",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0235",
+    "emoji": "🚱",
+    "ko": "음용수 아님",
+    "en": "non-potable water",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0236",
+    "emoji": "🚷",
+    "ko": "보행자 금지",
+    "en": "no pedestrians",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0237",
+    "emoji": "📵",
+    "ko": "휴대폰 금지",
+    "en": "no mobile phones",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0238",
+    "emoji": "🔞",
+    "ko": "미성년자 금지",
+    "en": "no minors",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0239",
+    "emoji": "☢️",
+    "ko": "방사능",
+    "en": "radioactive",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0240",
+    "emoji": "☣️",
+    "ko": "생물학적 위험",
+    "en": "biohazard",
+    "category": "표지판",
+    "level": 1
+  },
+  {
+    "id": "ev0241",
+    "emoji": "⚛️",
+    "ko": "원자",
+    "en": "atom",
+    "category": "과학",
+    "level": 1
+  },
+  {
+    "id": "ev0242",
+    "emoji": "🔀",
+    "ko": "셔플",
+    "en": "shuffle",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "ev0243",
+    "emoji": "🔁",
+    "ko": "반복",
+    "en": "repeat",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "ev0244",
+    "emoji": "🔂",
+    "ko": "한 곡 반복",
+    "en": "repeat one",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "ev0245",
+    "emoji": "▶️",
+    "ko": "재생",
+    "en": "play",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "ev0246",
+    "emoji": "⏩",
+    "ko": "빨리 감기",
+    "en": "fast forward",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "ev0247",
+    "emoji": "⏯️",
+    "ko": "재생/일시정지",
+    "en": "play/pause",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "ev0248",
+    "emoji": "◀️",
+    "ko": "되감기",
+    "en": "rewind",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "ev0249",
+    "emoji": "⏪",
+    "ko": "빨리 되감기",
+    "en": "fast rewind",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "ev0250",
+    "emoji": "⏸️",
+    "ko": "일시정지",
+    "en": "pause",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "ev0251",
+    "emoji": "⏹️",
+    "ko": "정지",
+    "en": "stop",
+    "category": "미디어",
+    "level": 1
+  },
+  {
+    "id": "flag001",
+    "emoji": "🇺🇸",
+    "ko": "미국",
+    "en": "United States",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag002",
+    "emoji": "🇨🇳",
+    "ko": "중국",
+    "en": "China",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag003",
+    "emoji": "🇯🇵",
+    "ko": "일본",
+    "en": "Japan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag004",
+    "emoji": "🇩🇪",
+    "ko": "독일",
+    "en": "Germany",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag005",
+    "emoji": "🇮🇳",
+    "ko": "인도",
+    "en": "India",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag006",
+    "emoji": "🇬🇧",
+    "ko": "영국",
+    "en": "United Kingdom",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag007",
+    "emoji": "🇫🇷",
+    "ko": "프랑스",
+    "en": "France",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag008",
+    "emoji": "🇮🇹",
+    "ko": "이탈리아",
+    "en": "Italy",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag009",
+    "emoji": "🇧🇷",
+    "ko": "브라질",
+    "en": "Brazil",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag010",
+    "emoji": "🇨🇦",
+    "ko": "캐나다",
+    "en": "Canada",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag011",
+    "emoji": "🇷🇺",
+    "ko": "러시아",
+    "en": "Russia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag012",
+    "emoji": "🇰🇷",
+    "ko": "대한민국",
+    "en": "South Korea",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag013",
+    "emoji": "🇦🇺",
+    "ko": "호주",
+    "en": "Australia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag014",
+    "emoji": "🇲🇽",
+    "ko": "멕시코",
+    "en": "Mexico",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag015",
+    "emoji": "🇪🇸",
+    "ko": "스페인",
+    "en": "Spain",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag016",
+    "emoji": "🇮🇩",
+    "ko": "인도네시아",
+    "en": "Indonesia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag017",
+    "emoji": "🇳🇱",
+    "ko": "네덜란드",
+    "en": "Netherlands",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag018",
+    "emoji": "🇸🇦",
+    "ko": "사우디아라비아",
+    "en": "Saudi Arabia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag019",
+    "emoji": "🇹🇷",
+    "ko": "튀르키예",
+    "en": "Turkey",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag020",
+    "emoji": "🇨🇭",
+    "ko": "스위스",
+    "en": "Switzerland",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag021",
+    "emoji": "🇵🇱",
+    "ko": "폴란드",
+    "en": "Poland",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag022",
+    "emoji": "🇹🇼",
+    "ko": "대만",
+    "en": "Taiwan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag023",
+    "emoji": "🇧🇪",
+    "ko": "벨기에",
+    "en": "Belgium",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag024",
+    "emoji": "🇸🇪",
+    "ko": "스웨덴",
+    "en": "Sweden",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag025",
+    "emoji": "🇦🇷",
+    "ko": "아르헨티나",
+    "en": "Argentina",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag026",
+    "emoji": "🇮🇪",
+    "ko": "아일랜드",
+    "en": "Ireland",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag027",
+    "emoji": "🇦🇹",
+    "ko": "오스트리아",
+    "en": "Austria",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag028",
+    "emoji": "🇹🇭",
+    "ko": "태국",
+    "en": "Thailand",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag029",
+    "emoji": "🇮🇱",
+    "ko": "이스라엘",
+    "en": "Israel",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag030",
+    "emoji": "🇳🇴",
+    "ko": "노르웨이",
+    "en": "Norway",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag031",
+    "emoji": "🇦🇪",
+    "ko": "아랍에미리트",
+    "en": "United Arab Emirates",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag032",
+    "emoji": "🇸🇬",
+    "ko": "싱가포르",
+    "en": "Singapore",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag033",
+    "emoji": "🇲🇾",
+    "ko": "말레이시아",
+    "en": "Malaysia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag034",
+    "emoji": "🇿🇦",
+    "ko": "남아프리카공화국",
+    "en": "South Africa",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag035",
+    "emoji": "🇩🇰",
+    "ko": "덴마크",
+    "en": "Denmark",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag036",
+    "emoji": "🇭🇰",
+    "ko": "홍콩",
+    "en": "Hong Kong",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag037",
+    "emoji": "🇵🇭",
+    "ko": "필리핀",
+    "en": "Philippines",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag038",
+    "emoji": "🇨🇴",
+    "ko": "콜롬비아",
+    "en": "Colombia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag039",
+    "emoji": "🇪🇬",
+    "ko": "이집트",
+    "en": "Egypt",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag040",
+    "emoji": "🇨🇱",
+    "ko": "칠레",
+    "en": "Chile",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag041",
+    "emoji": "🇫🇮",
+    "ko": "핀란드",
+    "en": "Finland",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag042",
+    "emoji": "🇧🇩",
+    "ko": "방글라데시",
+    "en": "Bangladesh",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag043",
+    "emoji": "🇵🇰",
+    "ko": "파키스탄",
+    "en": "Pakistan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag044",
+    "emoji": "🇻🇳",
+    "ko": "베트남",
+    "en": "Vietnam",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag045",
+    "emoji": "🇨🇿",
+    "ko": "체코",
+    "en": "Czech Republic",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag046",
+    "emoji": "🇷🇴",
+    "ko": "루마니아",
+    "en": "Romania",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag047",
+    "emoji": "🇳🇿",
+    "ko": "뉴질랜드",
+    "en": "New Zealand",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag048",
+    "emoji": "🇵🇹",
+    "ko": "포르투갈",
+    "en": "Portugal",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag049",
+    "emoji": "🇮🇶",
+    "ko": "이라크",
+    "en": "Iraq",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag050",
+    "emoji": "🇬🇷",
+    "ko": "그리스",
+    "en": "Greece",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag051",
+    "emoji": "🇶🇦",
+    "ko": "카타르",
+    "en": "Qatar",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag052",
+    "emoji": "🇰🇿",
+    "ko": "카자흐스탄",
+    "en": "Kazakhstan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag053",
+    "emoji": "🇵🇪",
+    "ko": "페루",
+    "en": "Peru",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag054",
+    "emoji": "🇭🇺",
+    "ko": "헝가리",
+    "en": "Hungary",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag055",
+    "emoji": "🇺🇦",
+    "ko": "우크라이나",
+    "en": "Ukraine",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag056",
+    "emoji": "🇰🇼",
+    "ko": "쿠웨이트",
+    "en": "Kuwait",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag057",
+    "emoji": "🇲🇦",
+    "ko": "모로코",
+    "en": "Morocco",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag058",
+    "emoji": "🇸🇰",
+    "ko": "슬로바키아",
+    "en": "Slovakia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag059",
+    "emoji": "🇪🇨",
+    "ko": "에콰도르",
+    "en": "Ecuador",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag060",
+    "emoji": "🇵🇷",
+    "ko": "푸에르토리코",
+    "en": "Puerto Rico",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag061",
+    "emoji": "🇩🇴",
+    "ko": "도미니카공화국",
+    "en": "Dominican Republic",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag062",
+    "emoji": "🇰🇪",
+    "ko": "케냐",
+    "en": "Kenya",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag063",
+    "emoji": "🇬🇹",
+    "ko": "과테말라",
+    "en": "Guatemala",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag064",
+    "emoji": "🇴🇲",
+    "ko": "오만",
+    "en": "Oman",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag065",
+    "emoji": "🇧🇬",
+    "ko": "불가리아",
+    "en": "Bulgaria",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag066",
+    "emoji": "🇻🇪",
+    "ko": "베네수엘라",
+    "en": "Venezuela",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag067",
+    "emoji": "🇱🇺",
+    "ko": "룩셈부르크",
+    "en": "Luxembourg",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag068",
+    "emoji": "🇹🇿",
+    "ko": "탄자니아",
+    "en": "Tanzania",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag069",
+    "emoji": "🇦🇿",
+    "ko": "아제르바이잔",
+    "en": "Azerbaijan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag070",
+    "emoji": "🇺🇿",
+    "ko": "우즈베키스탄",
+    "en": "Uzbekistan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag071",
+    "emoji": "🇨🇷",
+    "ko": "코스타리카",
+    "en": "Costa Rica",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag072",
+    "emoji": "🇱🇹",
+    "ko": "리투아니아",
+    "en": "Lithuania",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag073",
+    "emoji": "🇨🇮",
+    "ko": "코트디부아르",
+    "en": "Ivory Coast",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag074",
+    "emoji": "🇸🇮",
+    "ko": "슬로베니아",
+    "en": "Slovenia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag075",
+    "emoji": "🇵🇦",
+    "ko": "파나마",
+    "en": "Panama",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag076",
+    "emoji": "🇭🇷",
+    "ko": "크로아티아",
+    "en": "Croatia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag077",
+    "emoji": "🇱🇰",
+    "ko": "스리랑카",
+    "en": "Sri Lanka",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag078",
+    "emoji": "🇬🇭",
+    "ko": "가나",
+    "en": "Ghana",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag079",
+    "emoji": "🇲🇲",
+    "ko": "미얀마",
+    "en": "Myanmar",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag080",
+    "emoji": "🇷🇸",
+    "ko": "세르비아",
+    "en": "Serbia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag081",
+    "emoji": "🇺🇾",
+    "ko": "우루과이",
+    "en": "Uruguay",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag082",
+    "emoji": "🇧🇾",
+    "ko": "벨라루스",
+    "en": "Belarus",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag083",
+    "emoji": "🇩🇿",
+    "ko": "알제리",
+    "en": "Algeria",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag084",
+    "emoji": "🇳🇬",
+    "ko": "나이지리아",
+    "en": "Nigeria",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag085",
+    "emoji": "🇱🇻",
+    "ko": "라트비아",
+    "en": "Latvia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag086",
+    "emoji": "🇨🇲",
+    "ko": "카메룬",
+    "en": "Cameroon",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag087",
+    "emoji": "🇧🇴",
+    "ko": "볼리비아",
+    "en": "Bolivia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag088",
+    "emoji": "🇯🇴",
+    "ko": "요르단",
+    "en": "Jordan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag089",
+    "emoji": "🇧🇭",
+    "ko": "바레인",
+    "en": "Bahrain",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag090",
+    "emoji": "🇵🇾",
+    "ko": "파라과이",
+    "en": "Paraguay",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag091",
+    "emoji": "🇪🇪",
+    "ko": "에스토니아",
+    "en": "Estonia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag092",
+    "emoji": "🇳🇵",
+    "ko": "네팔",
+    "en": "Nepal",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag093",
+    "emoji": "🇭🇳",
+    "ko": "온두라스",
+    "en": "Honduras",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag094",
+    "emoji": "🇸🇻",
+    "ko": "엘살바도르",
+    "en": "El Salvador",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag095",
+    "emoji": "🇨🇾",
+    "ko": "키프로스",
+    "en": "Cyprus",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag096",
+    "emoji": "🇹🇳",
+    "ko": "튀니지",
+    "en": "Tunisia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag097",
+    "emoji": "🇮🇸",
+    "ko": "아이슬란드",
+    "en": "Iceland",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag098",
+    "emoji": "🇵🇬",
+    "ko": "파푸아뉴기니",
+    "en": "Papua New Guinea",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag099",
+    "emoji": "🇹🇹",
+    "ko": "트리니다드토바고",
+    "en": "Trinidad and Tobago",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag100",
+    "emoji": "🇨🇺",
+    "ko": "쿠바",
+    "en": "Cuba",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag101",
+    "emoji": "🇯🇲",
+    "ko": "자메이카",
+    "en": "Jamaica",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag102",
+    "emoji": "🇲🇳",
+    "ko": "몽골",
+    "en": "Mongolia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag103",
+    "emoji": "🇱🇧",
+    "ko": "레바논",
+    "en": "Lebanon",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag104",
+    "emoji": "🇦🇫",
+    "ko": "아프가니스탄",
+    "en": "Afghanistan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag105",
+    "emoji": "🇳🇵",
+    "ko": "네팔",
+    "en": "Nepal",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag106",
+    "emoji": "🇧🇩",
+    "ko": "방글라데시",
+    "en": "Bangladesh",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag107",
+    "emoji": "🇱🇰",
+    "ko": "스리랑카",
+    "en": "Sri Lanka",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag108",
+    "emoji": "🇲🇲",
+    "ko": "미얀마",
+    "en": "Myanmar",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag109",
+    "emoji": "🇰🇭",
+    "ko": "캄보디아",
+    "en": "Cambodia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag110",
+    "emoji": "🇱🇦",
+    "ko": "라오스",
+    "en": "Laos",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag111",
+    "emoji": "🇧🇳",
+    "ko": "브루나이",
+    "en": "Brunei",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag112",
+    "emoji": "🇹🇯",
+    "ko": "타지키스탄",
+    "en": "Tajikistan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag113",
+    "emoji": "🇹🇲",
+    "ko": "투르크메니스탄",
+    "en": "Turkmenistan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag114",
+    "emoji": "🇰🇬",
+    "ko": "키르기스스탄",
+    "en": "Kyrgyzstan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag115",
+    "emoji": "🇦🇲",
+    "ko": "아르메니아",
+    "en": "Armenia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag116",
+    "emoji": "🇬🇪",
+    "ko": "조지아",
+    "en": "Georgia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag117",
+    "emoji": "🇦🇿",
+    "ko": "아제르바이잔",
+    "en": "Azerbaijan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag118",
+    "emoji": "🇾🇪",
+    "ko": "예멘",
+    "en": "Yemen",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag119",
+    "emoji": "🇴🇲",
+    "ko": "오만",
+    "en": "Oman",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag120",
+    "emoji": "🇧🇭",
+    "ko": "바레인",
+    "en": "Bahrain",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag121",
+    "emoji": "🇯🇴",
+    "ko": "요르단",
+    "en": "Jordan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag122",
+    "emoji": "🇸🇾",
+    "ko": "시리아",
+    "en": "Syria",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag123",
+    "emoji": "🇮🇶",
+    "ko": "이라크",
+    "en": "Iraq",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag124",
+    "emoji": "🇵🇸",
+    "ko": "팔레스타인",
+    "en": "Palestine",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag125",
+    "emoji": "🇨🇾",
+    "ko": "키프로스",
+    "en": "Cyprus",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag126",
+    "emoji": "🇲🇹",
+    "ko": "몰타",
+    "en": "Malta",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag127",
+    "emoji": "🇱🇺",
+    "ko": "룩셈부르크",
+    "en": "Luxembourg",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag128",
+    "emoji": "🇮🇸",
+    "ko": "아이슬란드",
+    "en": "Iceland",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag129",
+    "emoji": "🇪🇪",
+    "ko": "에스토니아",
+    "en": "Estonia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag130",
+    "emoji": "🇱🇻",
+    "ko": "라트비아",
+    "en": "Latvia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag131",
+    "emoji": "🇱🇹",
+    "ko": "리투아니아",
+    "en": "Lithuania",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag132",
+    "emoji": "🇸🇰",
+    "ko": "슬로바키아",
+    "en": "Slovakia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag133",
+    "emoji": "🇸🇮",
+    "ko": "슬로베니아",
+    "en": "Slovenia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag134",
+    "emoji": "🇭🇷",
+    "ko": "크로아티아",
+    "en": "Croatia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag135",
+    "emoji": "🇧🇦",
+    "ko": "보스니아 헤르체고비나",
+    "en": "Bosnia and Herzegovina",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag136",
+    "emoji": "🇷🇸",
+    "ko": "세르비아",
+    "en": "Serbia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag137",
+    "emoji": "🇲🇪",
+    "ko": "몬테네그로",
+    "en": "Montenegro",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag138",
+    "emoji": "🇲🇰",
+    "ko": "북마케도니아",
+    "en": "North Macedonia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag139",
+    "emoji": "🇦🇱",
+    "ko": "알바니아",
+    "en": "Albania",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag140",
+    "emoji": "🇲🇩",
+    "ko": "몰도바",
+    "en": "Moldova",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag141",
+    "emoji": "🇧🇾",
+    "ko": "벨라루스",
+    "en": "Belarus",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag142",
+    "emoji": "🇬🇭",
+    "ko": "가나",
+    "en": "Ghana",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag143",
+    "emoji": "🇸🇳",
+    "ko": "세네갈",
+    "en": "Senegal",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag144",
+    "emoji": "🇨🇮",
+    "ko": "코트디부아르",
+    "en": "Ivory Coast",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag145",
+    "emoji": "🇨🇲",
+    "ko": "카메룬",
+    "en": "Cameroon",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag146",
+    "emoji": "🇹🇳",
+    "ko": "튀니지",
+    "en": "Tunisia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag147",
+    "emoji": "🇩🇿",
+    "ko": "알제리",
+    "en": "Algeria",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag148",
+    "emoji": "🇱🇾",
+    "ko": "리비아",
+    "en": "Libya",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag149",
+    "emoji": "🇸🇩",
+    "ko": "수단",
+    "en": "Sudan",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "flag150",
+    "emoji": "🇪🇹",
+    "ko": "에티오피아",
+    "en": "Ethiopia",
+    "category": "국기",
+    "level": 2
+  },
+  {
+    "id": "anthem001",
+    "emoji": "🌊",
+    "ko": "동해물",
+    "en": "East Sea water",
+    "category": "애국가1절",
+    "level": 3,
+    "verse": 1,
+    "lyric": "동해물과 백두산이 마르고 닳도록"
+  },
+  {
+    "id": "anthem002",
+    "emoji": "🏔️",
+    "ko": "백두산",
+    "en": "Baekdu Mountain",
+    "category": "애국가1절",
+    "level": 3,
+    "verse": 1,
+    "lyric": "동해물과 백두산이 마르고 닳도록"
+  },
+  {
+    "id": "anthem003",
+    "emoji": "☀️🏜️",
+    "ko": "마르다",
+    "en": "to dry up",
+    "category": "애국가1절",
+    "level": 3,
+    "verse": 1,
+    "lyric": "동해물과 백두산이 마르고 닳도록"
+  },
+  {
+    "id": "anthem004",
+    "emoji": "😇✨",
+    "ko": "하느님",
+    "en": "God/Heaven",
+    "category": "애국가1절",
+    "level": 3,
+    "verse": 1,
+    "lyric": "하느님이 보우하사 우리나라 만세"
+  },
+  {
+    "id": "anthem005",
+    "emoji": "🛡️🙏",
+    "ko": "보우하다",
+    "en": "to protect/bless",
+    "category": "애국가1절",
+    "level": 3,
+    "verse": 1,
+    "lyric": "하느님이 보우하사 우리나라 만세"
+  },
+  {
+    "id": "anthem006",
+    "emoji": "🇰🇷",
+    "ko": "우리나라",
+    "en": "our country",
+    "category": "애국가1절",
+    "level": 3,
+    "verse": 1,
+    "lyric": "하느님이 보우하사 우리나라 만세"
+  },
+  {
+    "id": "anthem007",
+    "emoji": "🎉🙌",
+    "ko": "만세",
+    "en": "long live/hooray",
+    "category": "애국가1절",
+    "level": 3,
+    "verse": 1,
+    "lyric": "하느님이 보우하사 우리나라 만세"
+  },
+  {
+    "id": "anthem008",
+    "emoji": "🌺",
+    "ko": "무궁화",
+    "en": "Rose of Sharon",
+    "category": "애국가후렴",
+    "level": 3,
+    "verse": 0,
+    "lyric": "무궁화 삼천리 화려강산"
+  },
+  {
+    "id": "anthem009",
+    "emoji": "🗺️📏",
+    "ko": "삼천리",
+    "en": "3000 ri (Korean land)",
+    "category": "애국가후렴",
+    "level": 3,
+    "verse": 0,
+    "lyric": "무궁화 삼천리 화려강산"
+  },
+  {
+    "id": "anthem010",
+    "emoji": "✨🏞️",
+    "ko": "화려강산",
+    "en": "beautiful land",
+    "category": "애국가후렴",
+    "level": 3,
+    "verse": 0,
+    "lyric": "무궁화 삼천리 화려강산"
+  },
+  {
+    "id": "anthem011",
+    "emoji": "👨‍👩‍👧‍👦",
+    "ko": "대한사람",
+    "en": "Korean people",
+    "category": "애국가후렴",
+    "level": 3,
+    "verse": 0,
+    "lyric": "대한사람 대한으로 길이 보전하세"
+  },
+  {
+    "id": "anthem012",
+    "emoji": "🇰🇷",
+    "ko": "대한으로",
+    "en": "Korean",
+    "category": "애국가후렴",
+    "level": 3,
+    "verse": 0,
+    "lyric": "대한사람 대한으로 길이 보전하세"
+  },
+  {
+    "id": "anthem013",
+    "emoji": "⏳♾️",
+    "ko": "길이",
+    "en": "for a long time",
+    "category": "애국가후렴",
+    "level": 3,
+    "verse": 0,
+    "lyric": "대한사람 대한으로 길이 보전하세"
+  },
+  {
+    "id": "anthem014",
+    "emoji": "🔒💎",
+    "ko": "보전하다",
+    "en": "to preserve",
+    "category": "애국가후렴",
+    "level": 3,
+    "verse": 0,
+    "lyric": "대한사람 대한으로 길이 보전하세"
+  },
+  {
+    "id": "anthem015",
+    "emoji": "🌄",
+    "ko": "남산",
+    "en": "Namsan Mountain",
+    "category": "애국가2절",
+    "level": 3,
+    "verse": 2,
+    "lyric": "남산 위에 저 소나무 철갑을 두른 듯"
+  },
+  {
+    "id": "anthem016",
+    "emoji": "🌲",
+    "ko": "소나무",
+    "en": "pine tree",
+    "category": "애국가2절",
+    "level": 3,
+    "verse": 2,
+    "lyric": "남산 위에 저 소나무 철갑을 두른 듯"
+  },
+  {
+    "id": "anthem017",
+    "emoji": "🛡️⚔️",
+    "ko": "철갑",
+    "en": "iron armor",
+    "category": "애국가2절",
+    "level": 3,
+    "verse": 2,
+    "lyric": "남산 위에 저 소나무 철갑을 두른 듯"
+  },
+  {
+    "id": "anthem018",
+    "emoji": "💨❄️",
+    "ko": "바람서리",
+    "en": "wind and frost",
+    "category": "애국가2절",
+    "level": 3,
+    "verse": 2,
+    "lyric": "바람서리 불변함은 우리 기상일세"
+  },
+  {
+    "id": "anthem019",
+    "emoji": "🔒♾️",
+    "ko": "불변",
+    "en": "unchanging",
+    "category": "애국가2절",
+    "level": 3,
+    "verse": 2,
+    "lyric": "바람서리 불변함은 우리 기상일세"
+  },
+  {
+    "id": "anthem020",
+    "emoji": "💪🔥",
+    "ko": "기상",
+    "en": "spirit/vigor",
+    "category": "애국가2절",
+    "level": 3,
+    "verse": 2,
+    "lyric": "바람서리 불변함은 우리 기상일세"
+  },
+  {
+    "id": "anthem021",
+    "emoji": "🍂🌌☁️",
+    "ko": "가을 하늘",
+    "en": "autumn sky",
+    "category": "애국가3절",
+    "level": 3,
+    "verse": 3,
+    "lyric": "가을 하늘 공활한데 높고 구름 없이"
+  },
+  {
+    "id": "anthem022",
+    "emoji": "🌅🔭",
+    "ko": "공활하다",
+    "en": "vast/boundless",
+    "category": "애국가3절",
+    "level": 3,
+    "verse": 3,
+    "lyric": "가을 하늘 공활한데 높고 구름 없이"
+  },
+  {
+    "id": "anthem023",
+    "emoji": "🌕✨",
+    "ko": "밝은 달",
+    "en": "bright moon",
+    "category": "애국가3절",
+    "level": 3,
+    "verse": 3,
+    "lyric": "밝은 달은 우리 가슴 일편단심일세"
+  },
+  {
+    "id": "anthem024",
+    "emoji": "💑💖",
+    "ko": "우리 가슴",
+    "en": "heart/chest",
+    "category": "애국가3절",
+    "level": 3,
+    "verse": 3,
+    "lyric": "밝은 달은 우리 가슴 일편단심일세"
+  },
+  {
+    "id": "anthem025",
+    "emoji": "❤️🎯",
+    "ko": "일편단심",
+    "en": "single-hearted devotion",
+    "category": "애국가3절",
+    "level": 3,
+    "verse": 3,
+    "lyric": "밝은 달은 우리 가슴 일편단심일세"
+  },
+  {
+    "id": "anthem026",
+    "emoji": "⚡💥",
+    "ko": "기상",
+    "en": "energy/spirit",
+    "category": "애국가4절",
+    "level": 3,
+    "verse": 4,
+    "lyric": "이 기상과 이 맘으로 충성을 다하여"
+  },
+  {
+    "id": "anthem027",
+    "emoji": "🙋‍♂️💘❤️",
+    "ko": "충성",
+    "en": "loyalty",
+    "category": "애국가4절",
+    "level": 3,
+    "verse": 4,
+    "lyric": "이 기상과 이 맘으로 충성을 다하여"
+  },
+  {
+    "id": "anthem028",
+    "emoji": "😰💦",
+    "ko": "괴로우나",
+    "en": "hardship",
+    "category": "애국가4절",
+    "level": 3,
+    "verse": 4,
+    "lyric": "괴로우나 즐거우나 나라 사랑하세"
+  },
+  {
+    "id": "anthem029",
+    "emoji": "😊🎶",
+    "ko": "즐거우나",
+    "en": "joy",
+    "category": "애국가4절",
+    "level": 3,
+    "verse": 4,
+    "lyric": "괴로우나 즐거우나 나라 사랑하세"
+  },
+  {
+    "id": "anthem030",
+    "emoji": "🇰🇷💕",
+    "ko": "나라 사랑",
+    "en": "love for country",
+    "category": "애국가4절",
+    "level": 3,
+    "verse": 4,
+    "lyric": "괴로우나 즐거우나 나라 사랑하세"
+  }
+]

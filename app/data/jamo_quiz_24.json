@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "version": "1.0",
+    "mode": "basics",
+    "type": "jamo_name_mcq",
+    "choicesCount": 4
+  },
+  "pools": {
+    "consonant": [
+      { "glyph": "ㄱ", "name": "기역", "en": "giyeok" },
+      { "glyph": "ㄴ", "name": "니은", "en": "nieun" },
+      { "glyph": "ㄷ", "name": "디귿", "en": "digeut" },
+      { "glyph": "ㄹ", "name": "리을", "en": "rieul" },
+      { "glyph": "ㅁ", "name": "미음", "en": "mieum" },
+      { "glyph": "ㅂ", "name": "비읍", "en": "bieup" },
+      { "glyph": "ㅅ", "name": "시옷", "en": "siot" },
+      { "glyph": "ㅇ", "name": "이응", "en": "ieung" },
+      { "glyph": "ㅈ", "name": "지읒", "en": "jieut" },
+      { "glyph": "ㅊ", "name": "치읓", "en": "chieut" },
+      { "glyph": "ㅋ", "name": "키읔", "en": "kieuk" },
+      { "glyph": "ㅌ", "name": "티읕", "en": "tieut" },
+      { "glyph": "ㅍ", "name": "피읖", "en": "pieup" },
+      { "glyph": "ㅎ", "name": "히읗", "en": "hieut" }
+    ],
+    "vowel": [
+      { "glyph": "ㅏ", "name": "아", "en": "a" },
+      { "glyph": "ㅑ", "name": "야", "en": "ya" },
+      { "glyph": "ㅓ", "name": "어", "en": "eo" },
+      { "glyph": "ㅕ", "name": "여", "en": "yeo" },
+      { "glyph": "ㅗ", "name": "오", "en": "o" },
+      { "glyph": "ㅛ", "name": "요", "en": "yo" },
+      { "glyph": "ㅜ", "name": "우", "en": "u" },
+      { "glyph": "ㅠ", "name": "유", "en": "yu" },
+      { "glyph": "ㅡ", "name": "으", "en": "eu" },
+      { "glyph": "ㅣ", "name": "이", "en": "i" }
+    ]
+  },
+  "items": [
+    { "id": "jm_c_01", "pool": "consonant", "glyph": "ㄱ", "answer": "기역" },
+    { "id": "jm_c_02", "pool": "consonant", "glyph": "ㄴ", "answer": "니은" },
+    { "id": "jm_c_03", "pool": "consonant", "glyph": "ㄷ", "answer": "디귿" },
+    { "id": "jm_c_04", "pool": "consonant", "glyph": "ㄹ", "answer": "리을" },
+    { "id": "jm_c_05", "pool": "consonant", "glyph": "ㅁ", "answer": "미음" },
+    { "id": "jm_c_06", "pool": "consonant", "glyph": "ㅂ", "answer": "비읍" },
+    { "id": "jm_c_07", "pool": "consonant", "glyph": "ㅅ", "answer": "시옷" },
+    { "id": "jm_c_08", "pool": "consonant", "glyph": "ㅇ", "answer": "이응" },
+    { "id": "jm_c_09", "pool": "consonant", "glyph": "ㅈ", "answer": "지읒" },
+    { "id": "jm_c_10", "pool": "consonant", "glyph": "ㅊ", "answer": "치읓" },
+    { "id": "jm_c_11", "pool": "consonant", "glyph": "ㅋ", "answer": "키읔" },
+    { "id": "jm_c_12", "pool": "consonant", "glyph": "ㅌ", "answer": "티읕" },
+    { "id": "jm_c_13", "pool": "consonant", "glyph": "ㅍ", "answer": "피읖" },
+    { "id": "jm_c_14", "pool": "consonant", "glyph": "ㅎ", "answer": "히읗" },
+
+    { "id": "jm_v_01", "pool": "vowel", "glyph": "ㅏ", "answer": "아" },
+    { "id": "jm_v_02", "pool": "vowel", "glyph": "ㅑ", "answer": "야" },
+    { "id": "jm_v_03", "pool": "vowel", "glyph": "ㅓ", "answer": "어" },
+    { "id": "jm_v_04", "pool": "vowel", "glyph": "ㅕ", "answer": "여" },
+    { "id": "jm_v_05", "pool": "vowel", "glyph": "ㅗ", "answer": "오" },
+    { "id": "jm_v_06", "pool": "vowel", "glyph": "ㅛ", "answer": "요" },
+    { "id": "jm_v_07", "pool": "vowel", "glyph": "ㅜ", "answer": "우" },
+    { "id": "jm_v_08", "pool": "vowel", "glyph": "ㅠ", "answer": "유" },
+    { "id": "jm_v_09", "pool": "vowel", "glyph": "ㅡ", "answer": "으" },
+    { "id": "jm_v_10", "pool": "vowel", "glyph": "ㅣ", "answer": "이" }
+  ]
+}

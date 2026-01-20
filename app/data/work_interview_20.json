@@ -1,0 +1,2997 @@
+[
+  {
+    "id": "wk0001",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "자기소개를 해주세요.",
+    "tts": "자기소개를 해주세요.",
+    "extra": {
+      "sampleAnswerKo": "안녕하세요. 저는 ___ 분야에서 ___년 경험이 있는 ___입니다. 맡은 일을 끝까지 책임지고, 팀과 원활하게 소통하는 강점이 있습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0002",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "지원 동기는 무엇인가요?",
+    "tts": "지원 동기는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 ___ 업무를 하면서 ___에 흥미를 느꼈고, 귀사의 ___ 방향과 잘 맞다고 생각했습니다. 배운 것을 빠르게 적용해 성과로 연결하겠습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0003",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "본인의 강점은 무엇인가요?",
+    "tts": "본인의 강점은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "제 강점은 문제를 구조화해서 우선순위를 정하는 것입니다. 급한 상황에서도 핵심부터 처리해 일정에 맞추는 편입니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0004",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "본인의 약점은 무엇인가요?",
+    "tts": "본인의 약점은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "처음엔 속도를 내려고 완벽하게 하려는 경향이 있었습니다. 그래서 체크리스트로 1차 완료를 빠르게 하고, 이후 개선하는 방식으로 보완했습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0005",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "관련 경험이 있나요?",
+    "tts": "관련 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. ___ 프로젝트에서 ___ 역할을 맡아 ___를 개선했고, 그 결과 ___ 지표를 향상시켰습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0006",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "갈등이 생겼을 때 어떻게 해결하나요?",
+    "tts": "갈등이 생겼을 때 어떻게 해결하나요?",
+    "extra": {
+      "sampleAnswerKo": "상대의 관점을 먼저 확인하고, 사실과 목표를 기준으로 대안을 정리합니다. 합의한 내용은 문서로 남겨 재발을 줄입니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0007",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "실패 경험이 있다면 말해 주세요.",
+    "tts": "실패 경험이 있다면 말해 주세요.",
+    "extra": {
+      "sampleAnswerKo": "초기에 요구사항을 충분히 확인하지 못해 일정이 지연된 적이 있습니다. 이후에는 착수 전에 범위를 확정하고, 중간 점검을 정례화했습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0008",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "가장 자랑스러운 성과는 무엇인가요?",
+    "tts": "가장 자랑스러운 성과는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "___를 자동화/개선해서 시간을 줄였고, 팀의 반복 업무를 크게 감소시킨 경험이 가장 기억에 남습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0009",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "이직(퇴사) 사유는 무엇인가요?",
+    "tts": "이직(퇴사) 사유는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "더 성장할 수 있는 환경에서 ___ 역량을 확장하고 싶었습니다. 특히 ___ 분야에서 더 큰 책임을 맡고 싶었습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0010",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "5년 후 목표는 무엇인가요?",
+    "tts": "5년 후 목표는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "핵심 업무를 독립적으로 리드할 수 있는 수준이 되고, 팀에 도움이 되는 표준/프로세스를 만드는 사람이 되고 싶습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0011",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "야근이나 압박이 있을 때 어떻게 대응하나요?",
+    "tts": "야근이나 압박이 있을 때 어떻게 대응하나요?",
+    "extra": {
+      "sampleAnswerKo": "우선순위를 재정렬하고, 필요한 경우 범위 조정이나 지원 요청을 빠르게 합니다. 중요한 건 일정과 품질의 균형이라고 생각합니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0012",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "팀워크에서 가장 중요한 것은 무엇인가요?",
+    "tts": "팀워크에서 가장 중요한 것은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "공유와 약속이라고 생각합니다. 진행 상황을 투명하게 공유하고, 약속한 일정/품질을 지키는 것이 신뢰를 만듭니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0013",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "리더십 경험이 있나요?",
+    "tts": "리더십 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "작은 규모지만 ___ 업무를 리딩하며 역할을 나누고 일정/리스크를 관리했습니다. 의견을 모아 결정을 빠르게 내리는 편입니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0014",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "커뮤니케이션 스타일은 어떤가요?",
+    "tts": "커뮤니케이션 스타일은 어떤가요?",
+    "extra": {
+      "sampleAnswerKo": "핵심을 먼저 말하고, 근거와 다음 액션을 함께 공유합니다. 오해를 줄이기 위해 정리 문서나 메시지로 남기는 편입니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0015",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "마감이 급한 업무가 들어오면 어떻게 하나요?",
+    "tts": "마감이 급한 업무가 들어오면 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "가장 먼저 완료 기준을 확인하고, 작업을 쪼개서 바로 실행합니다. 동시에 리스크를 공유해 기대치를 맞춥니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0016",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "고객/클라이언트 대응 경험이 있나요?",
+    "tts": "고객/클라이언트 대응 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 문의를 빠르게 분류하고, 가능한 해결안을 제시한 뒤 일정/책임 범위를 명확히 안내했습니다. 이슈는 재발 방지까지 정리했습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0017",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "연봉/조건에 대한 기대가 있나요?",
+    "tts": "연봉/조건에 대한 기대가 있나요?",
+    "extra": {
+      "sampleAnswerKo": "직무 범위와 책임을 기준으로 합리적인 수준을 기대합니다. 회사의 기준을 먼저 듣고 조율하고 싶습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0018",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "마지막으로 질문 있나요?",
+    "tts": "마지막으로 질문 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 입사 후 3개월 동안 기대하는 성과와, 팀이 중요하게 보는 업무 방식이 궁금합니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0019",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "업무에서 한국어 소통은 괜찮나요?",
+    "tts": "업무에서 한국어 소통은 괜찮나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 기본적인 업무 소통은 가능합니다. 모르는 표현은 바로 확인하고, 문서로 정리해 정확하게 전달하겠습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0020",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview",
+    "prompt": "왜 우리 회사를 선택했나요?",
+    "tts": "왜 우리 회사를 선택했나요?",
+    "extra": {
+      "sampleAnswerKo": "귀사의 ___ 강점과 성장 방향이 인상적이었습니다. 저는 ___ 역량으로 빠르게 기여하고, 함께 성장하고 싶습니다.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview", "level1"]
+  },
+  {
+    "id": "wk0021",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "한국에 오게 된 이유는 무엇인가요?",
+    "tts": "한국에 오게 된 이유는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 ___ 분야에서 성장하고 싶어서 한국에 왔습니다. 특히 ___ 환경에서 배우고 경험을 쌓고 싶었습니다.",
+      "sampleAnswerEn": "I came to Korea because I want to grow in the field of ___. I especially wanted to learn and gain experience in an environment like ___.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0022",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "한국어는 얼마나 공부했나요?",
+    "tts": "한국어는 얼마나 공부했나요?",
+    "extra": {
+      "sampleAnswerKo": "총 ___개월/___년 정도 공부했습니다. 매일 ___분씩 듣기와 말하기를 연습하고, 업무 표현을 정리했습니다.",
+      "sampleAnswerEn": "I’ve studied Korean for about ___ months/years. I practice listening and speaking for ___ minutes every day and organize useful work expressions.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0023",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "본인의 전공은 무엇이고, 왜 선택했나요?",
+    "tts": "본인의 전공은 무엇이고, 왜 선택했나요?",
+    "extra": {
+      "sampleAnswerKo": "제 전공은 ___입니다. ___에 관심이 있었고, 문제를 해결하는 과정이 좋아서 선택했습니다.",
+      "sampleAnswerEn": "My major is ___. I chose it because I’m interested in ___ and I enjoy the process of solving problems.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0024",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "이 직무를 선택한 이유는 무엇인가요?",
+    "tts": "이 직무를 선택한 이유는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 ___ 업무를 할 때 가장 집중이 됩니다. 관련 경험을 통해 적성이 맞다고 느꼈고, 이 직무에서 성장하고 싶습니다.",
+      "sampleAnswerEn": "I focus best when I work on ___. Through related experience, I realized it suits me, and I want to grow in this role.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0025",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "본인을 한 문장으로 소개해 주세요.",
+    "tts": "본인을 한 문장으로 소개해 주세요.",
+    "extra": {
+      "sampleAnswerKo": "저는 결과를 위해 꾸준히 개선하는 사람입니다. 작은 문제도 끝까지 확인하는 편입니다.",
+      "sampleAnswerEn": "I’m someone who keeps improving to achieve results, and I tend to follow through even on small issues.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0026",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무에서 가장 중요하게 생각하는 가치는 무엇인가요?",
+    "tts": "업무에서 가장 중요하게 생각하는 가치는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 신뢰와 책임을 가장 중요하게 생각합니다. 약속한 일정과 품질을 지키는 것이 기본이라고 생각합니다.",
+      "sampleAnswerEn": "I value trust and responsibility the most. I believe keeping promised timelines and quality is fundamental.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0027",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "스트레스를 받을 때 어떻게 관리하나요?",
+    "tts": "스트레스를 받을 때 어떻게 관리하나요?",
+    "extra": {
+      "sampleAnswerKo": "우선 할 일을 정리하고 우선순위를 세웁니다. 그리고 짧게 산책하거나 운동해서 머리를 환기합니다.",
+      "sampleAnswerEn": "First, I organize tasks and set priorities. Then I take a short walk or exercise to refresh my mind.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0028",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "성격의 장단점을 말해 주세요.",
+    "tts": "성격의 장단점을 말해 주세요.",
+    "extra": {
+      "sampleAnswerKo": "저는 꼼꼼해서 실수를 줄이는 편입니다. 다만 처음엔 시간이 걸릴 수 있어서, 체크리스트로 속도를 관리합니다.",
+      "sampleAnswerEn": "I’m detail-oriented, so I reduce mistakes. However, I can be slow at first, so I manage speed with checklists.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0029",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "최근에 배운 것 중 가장 유용한 것은 무엇인가요?",
+    "tts": "최근에 배운 것 중 가장 유용한 것은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "최근에 ___을(를) 배웠는데 업무 효율이 좋아졌습니다. 특히 ___ 작업 시간이 줄었습니다.",
+      "sampleAnswerEn": "Recently I learned ___, and it improved my work efficiency. In particular, it reduced the time spent on ___.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0030",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무에서 실수했을 때 어떻게 대응하나요?",
+    "tts": "업무에서 실수했을 때 어떻게 대응하나요?",
+    "extra": {
+      "sampleAnswerKo": "먼저 사실을 확인하고 바로 공유합니다. 원인을 정리한 뒤 재발 방지 방법을 적용합니다.",
+      "sampleAnswerEn": "First I confirm the facts and share them quickly. Then I analyze the cause and apply measures to prevent recurrence.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+
+  {
+    "id": "wk0031",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "최근 프로젝트에서 맡은 역할은 무엇이었나요?",
+    "tts": "최근 프로젝트에서 맡은 역할은 무엇이었나요?",
+    "extra": {
+      "sampleAnswerKo": "최근 ___ 프로젝트에서 저는 ___ 역할을 맡았습니다. 주로 ___을 담당했고, 일정과 품질을 관리했습니다.",
+      "sampleAnswerEn": "In my recent project, I was responsible for ___. I mainly handled ___ and managed timeline and quality.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0032",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "프로젝트 목표를 어떻게 설정했나요?",
+    "tts": "프로젝트 목표를 어떻게 설정했나요?",
+    "extra": {
+      "sampleAnswerKo": "사용자 요구를 먼저 정리한 뒤, 측정 가능한 목표를 세웠습니다. 그 다음 마일스톤으로 쪼개서 진행했습니다.",
+      "sampleAnswerEn": "I first organized user requirements and set measurable goals. Then I broke them into milestones and executed step by step.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0033",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "성과를 숫자로 설명할 수 있나요?",
+    "tts": "성과를 숫자로 설명할 수 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. ___ 지표를 기준으로 측정했고, ___에서 ___로 개선했습니다. 그 결과 비용/시간을 줄이거나 만족도를 높였습니다.",
+      "sampleAnswerEn": "Yes. I measured using the ___ metric and improved it from ___ to ___. As a result, we reduced cost/time or increased satisfaction.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0034",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "어려운 문제를 해결했던 경험을 말해 주세요.",
+    "tts": "어려운 문제를 해결했던 경험을 말해 주세요.",
+    "extra": {
+      "sampleAnswerKo": "___ 문제가 발생했을 때 원인을 단계별로 확인했습니다. 우선 ___를 점검했고, 최종적으로 ___로 해결했습니다.",
+      "sampleAnswerEn": "When ___ happened, I checked the root cause step by step. I first reviewed ___, and finally solved it by ___.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0035",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "업무 프로세스를 개선한 경험이 있나요?",
+    "tts": "업무 프로세스를 개선한 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 반복 작업을 정리해 템플릿/자동화를 만들었습니다. 그 결과 처리 시간이 줄고 오류가 감소했습니다.",
+      "sampleAnswerEn": "Yes. I organized repetitive tasks and created templates/automation. As a result, processing time decreased and errors were reduced.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0036",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "마감이 촉박했던 프로젝트를 어떻게 진행했나요?",
+    "tts": "마감이 촉박했던 프로젝트를 어떻게 진행했나요?",
+    "extra": {
+      "sampleAnswerKo": "작업을 쪼개고 우선순위를 다시 세웠습니다. 꼭 필요한 범위부터 완료하고, 리스크는 미리 공유했습니다.",
+      "sampleAnswerEn": "I broke down tasks and reprioritized. I delivered the essential scope first and shared risks early.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0037",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "새로운 툴/업무를 빠르게 배운 경험이 있나요?",
+    "tts": "새로운 툴/업무를 빠르게 배운 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 처음엔 문서와 예제를 보고 기본을 익혔고, 작은 과제로 바로 적용했습니다. 필요한 내용은 정리해서 팀과 공유했습니다.",
+      "sampleAnswerEn": "Yes. I learned the basics from docs and examples, then applied them through small tasks. I summarized key points and shared them with the team.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0038",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "고객 요구가 바뀌었을 때 어떻게 대응했나요?",
+    "tts": "고객 요구가 바뀌었을 때 어떻게 대응했나요?",
+    "extra": {
+      "sampleAnswerKo": "변경 이유와 영향 범위를 먼저 확인했습니다. 우선순위를 조정하고, 일정/범위 변경을 문서로 합의했습니다.",
+      "sampleAnswerEn": "I first confirmed the reason and impact scope. Then I adjusted priorities and agreed on timeline/scope changes in writing.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0039",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "실패를 통해 무엇을 배웠나요?",
+    "tts": "실패를 통해 무엇을 배웠나요?",
+    "extra": {
+      "sampleAnswerKo": "요구사항 확인과 중간 점검의 중요성을 배웠습니다. 이후에는 착수 전에 범위를 확정하고 정기적으로 공유합니다.",
+      "sampleAnswerEn": "I learned the importance of confirming requirements and having checkpoints. Since then, I lock scope early and share updates regularly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0040",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "성과가 잘 나온 이유는 무엇이라고 생각하나요?",
+    "tts": "성과가 잘 나온 이유는 무엇이라고 생각하나요?",
+    "extra": {
+      "sampleAnswerKo": "초기에 목표와 역할을 명확히 했고, 진행 상황을 자주 공유했습니다. 문제는 빨리 발견해 바로 수정했습니다.",
+      "sampleAnswerEn": "We clarified goals and roles early and shared progress frequently. We detected issues early and fixed them quickly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+
+  {
+    "id": "wk0041",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "팀에서 의견이 다를 때 어떻게 조율하나요?",
+    "tts": "팀에서 의견이 다를 때 어떻게 조율하나요?",
+    "extra": {
+      "sampleAnswerKo": "각 의견의 근거를 먼저 듣고, 목표와 데이터 기준으로 정리합니다. 합의가 어려우면 작은 실험으로 확인합니다.",
+      "sampleAnswerEn": "I listen to the rationale behind each opinion and align around goals and data. If it’s hard to agree, I validate through a small experiment.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0042",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "갈등이 생겼던 상황을 예로 들어 설명해 주세요.",
+    "tts": "갈등이 생겼던 상황을 예로 들어 설명해 주세요.",
+    "extra": {
+      "sampleAnswerKo": "___ 이슈로 의견이 갈렸습니다. 저는 사실을 정리해 공유하고, 선택지별 장단점을 비교해서 합의점을 찾았습니다.",
+      "sampleAnswerEn": "We disagreed due to ___. I summarized the facts, compared pros and cons of options, and helped the team reach a consensus.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0043",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "팀원에게 피드백을 줄 때 어떤 방식으로 하나요?",
+    "tts": "팀원에게 피드백을 줄 때 어떤 방식으로 하나요?",
+    "extra": {
+      "sampleAnswerKo": "사실과 영향 중심으로 말하고, 개선 방향을 함께 제안합니다. 감정적으로 말하지 않도록 시간을 두고 정리합니다.",
+      "sampleAnswerEn": "I focus on facts and impact and suggest improvements together. I take time to organize thoughts to avoid being emotional.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0044",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "팀원과 협업할 때 가장 중요하게 생각하는 것은 무엇인가요?",
+    "tts": "팀원과 협업할 때 가장 중요하게 생각하는 것은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "기대치 맞추기와 공유라고 생각합니다. 목표/일정/완료 기준을 먼저 맞추고 진행 상황을 자주 공유합니다.",
+      "sampleAnswerEn": "I think alignment and transparency are most important. I align on goals/timelines/definition of done and share updates frequently.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0045",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "팀에서 본인이 맡는 역할은 주로 무엇인가요?",
+    "tts": "팀에서 본인이 맡는 역할은 주로 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 주로 정리와 실행 역할을 합니다. 이슈를 분류하고 우선순위를 정해, 팀이 빠르게 움직이도록 돕습니다.",
+      "sampleAnswerEn": "I usually play a role in organizing and executing. I categorize issues, set priorities, and help the team move quickly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0046",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "의사결정이 느릴 때 어떻게 해결하나요?",
+    "tts": "의사결정이 느릴 때 어떻게 해결하나요?",
+    "extra": {
+      "sampleAnswerKo": "결정이 필요한 항목을 쪼개고, 선택지를 2~3개로 줄입니다. 기준(비용/시간/리스크)을 명확히 해서 빠르게 결정합니다.",
+      "sampleAnswerEn": "I break down what needs deciding and narrow options to 2–3. I clarify criteria (cost/time/risk) to make decisions faster.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0047",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "다른 문화권 팀원과 일해본 경험이 있나요?",
+    "tts": "다른 문화권 팀원과 일해본 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 용어와 기대치가 다를 수 있어서, 문서로 정리하고 확인 질문을 자주 했습니다. 결과적으로 오해가 줄었습니다.",
+      "sampleAnswerEn": "Yes. Because terms and expectations can differ, I documented things and asked clarifying questions often. It reduced misunderstandings.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0048",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "팀 내에서 실수가 발생했을 때 어떻게 대응하나요?",
+    "tts": "팀 내에서 실수가 발생했을 때 어떻게 대응하나요?",
+    "extra": {
+      "sampleAnswerKo": "누구 탓인지보다 원인을 먼저 봅니다. 영향 범위를 공유하고, 재발 방지 체크리스트를 만들어 적용합니다.",
+      "sampleAnswerEn": "I focus on root cause rather than blame. I share the impact scope and implement a checklist to prevent recurrence.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0049",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "회의에서 적극적으로 참여하기 어려울 때는 어떻게 하나요?",
+    "tts": "회의에서 적극적으로 참여하기 어려울 때는 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "핵심 질문 1~2개를 미리 준비하고, 회의 후 요약을 공유합니다. 필요한 내용은 메시지로 추가 질문을 합니다.",
+      "sampleAnswerEn": "I prepare 1–2 key questions in advance and share a summary afterward. If needed, I ask follow-up questions via message.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0050",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "도움을 요청해야 할 때는 어떻게 말하나요?",
+    "tts": "도움을 요청해야 할 때는 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "상황과 시도한 내용을 먼저 공유한 뒤, 필요한 도움을 구체적으로 요청합니다. 예: “제가 ___까지 해봤는데, ___ 부분 도움 받을 수 있을까요?”",
+      "sampleAnswerEn": "I share the context and what I tried first, then ask specifically. For example: “I tried ___, could you help me with ___?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+
+  {
+    "id": "wk0051",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "우선순위는 어떻게 정하나요?",
+    "tts": "우선순위는 어떻게 정하나요?",
+    "extra": {
+      "sampleAnswerKo": "영향도와 긴급도를 기준으로 정합니다. 마감, 고객 영향, 리스크를 보고 가장 중요한 것부터 처리합니다.",
+      "sampleAnswerEn": "I prioritize by impact and urgency. I look at deadlines, customer impact, and risks and handle the most important items first.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0052",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "멀티태스킹을 잘하나요?",
+    "tts": "멀티태스킹을 잘하나요?",
+    "extra": {
+      "sampleAnswerKo": "가능하지만, 동시에 너무 많이 진행하면 품질이 떨어질 수 있다고 생각합니다. 그래서 중요한 작업은 시간 블록으로 집중해서 처리합니다.",
+      "sampleAnswerEn": "I can, but I believe doing too many things at once can reduce quality. So I time-block important tasks and focus deeply.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0053",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무를 시작하기 전에 무엇을 먼저 하나요?",
+    "tts": "업무를 시작하기 전에 무엇을 먼저 하나요?",
+    "extra": {
+      "sampleAnswerKo": "완료 기준과 마감을 먼저 확인합니다. 그 다음 작업을 작은 단계로 쪼개고, 예상 리스크를 적어둡니다.",
+      "sampleAnswerEn": "I first confirm the definition of done and deadlines. Then I break tasks into small steps and note potential risks.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0054",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "반복 업무를 줄이기 위해 무엇을 하나요?",
+    "tts": "반복 업무를 줄이기 위해 무엇을 하나요?",
+    "extra": {
+      "sampleAnswerKo": "템플릿과 체크리스트를 만들고, 가능하면 자동화를 합니다. 반복되는 실수는 규칙으로 정리해서 공유합니다.",
+      "sampleAnswerEn": "I create templates and checklists, and automate when possible. I document recurring mistakes into rules and share them.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0055",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 보고는 어떻게 하나요?",
+    "tts": "업무 보고는 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "결론을 먼저 말하고, 근거와 다음 액션을 함께 공유합니다. 진행률, 이슈, 필요한 지원을 짧게 정리합니다.",
+      "sampleAnswerEn": "I lead with the conclusion, then share evidence and next actions. I summarize progress, issues, and needed support briefly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0056",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 중 집중이 깨질 때는 어떻게 하나요?",
+    "tts": "업무 중 집중이 깨질 때는 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "짧게 할 일을 다시 적고, 25분 단위로 집중합니다. 알림을 줄이고, 중요한 작업부터 처리합니다.",
+      "sampleAnswerEn": "I rewrite the task briefly and focus in 25-minute blocks. I reduce notifications and tackle important work first.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0057",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "모르는 것이 있으면 어떻게 해결하나요?",
+    "tts": "모르는 것이 있으면 어떻게 해결하나요?",
+    "extra": {
+      "sampleAnswerKo": "먼저 자료를 찾아보고, 30분 정도 시도합니다. 그래도 안 되면 구체적인 질문으로 도움을 요청합니다.",
+      "sampleAnswerEn": "I research and try for about 30 minutes first. If it still doesn’t work, I ask for help with a specific question.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0058",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 품질을 유지하는 본인만의 방법이 있나요?",
+    "tts": "업무 품질을 유지하는 본인만의 방법이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "완료 기준을 체크리스트로 만들고, 제출 전에 한 번 더 검토합니다. 가능하면 동료 리뷰도 요청합니다.",
+      "sampleAnswerEn": "I create a checklist for the definition of done and review once more before submitting. When possible, I request peer review too.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0059",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "갑자기 업무가 늘었을 때 어떻게 대응하나요?",
+    "tts": "갑자기 업무가 늘었을 때 어떻게 대응하나요?",
+    "extra": {
+      "sampleAnswerKo": "우선순위를 재조정하고, 마감이 임박한 것부터 처리합니다. 필요한 경우 범위 조정이나 지원 요청을 빠르게 합니다.",
+      "sampleAnswerEn": "I reprioritize and handle urgent deadlines first. If needed, I quickly request scope adjustment or additional support.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0060",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "원격/재택 근무 경험이 있나요?",
+    "tts": "원격/재택 근무 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 일정과 커뮤니케이션을 더 자주 공유했습니다. 업무 시작/종료 시간을 정하고, 문서로 남겨 오해를 줄였습니다.",
+      "sampleAnswerEn": "Yes. I shared schedules and updates more frequently. I set start/end times and documented decisions to reduce misunderstandings.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+
+  {
+    "id": "wk0061",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "회사에서 어떤 분위기를 선호하나요?",
+    "tts": "회사에서 어떤 분위기를 선호하나요?",
+    "extra": {
+      "sampleAnswerKo": "서로 존중하고 피드백이 솔직한 분위기를 선호합니다. 문제를 숨기기보다 빠르게 공유하는 문화가 좋습니다.",
+      "sampleAnswerEn": "I prefer a respectful environment with honest feedback. I like a culture that shares issues early rather than hiding them.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0062",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "상사가 피드백을 주면 어떻게 받아들이나요?",
+    "tts": "상사가 피드백을 주면 어떻게 받아들이나요?",
+    "extra": {
+      "sampleAnswerKo": "먼저 의도를 확인하고, 바로 적용할 수 있는 부분부터 반영합니다. 적용 결과를 다시 공유해 신뢰를 쌓습니다.",
+      "sampleAnswerEn": "I clarify the intent first and apply what I can immediately. Then I share the results to build trust.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0063",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "규칙이나 프로세스가 많은 환경은 괜찮나요?",
+    "tts": "규칙이나 프로세스가 많은 환경은 괜찮나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 기준이 명확하면 품질이 좋아진다고 생각합니다. 다만 비효율이 있으면 개선 제안을 드릴 수 있습니다.",
+      "sampleAnswerEn": "Yes. Clear standards improve quality. If something is inefficient, I can propose improvements.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0064",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "회사에 빨리 적응하기 위해 무엇을 하나요?",
+    "tts": "회사에 빨리 적응하기 위해 무엇을 하나요?",
+    "extra": {
+      "sampleAnswerKo": "업무 용어와 규칙을 먼저 정리합니다. 자주 쓰는 표현을 메모하고, 모르는 것은 바로 질문합니다.",
+      "sampleAnswerEn": "I first organize key terms and rules. I note common expressions and ask questions right away when I’m unsure.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0065",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "지시가 모호할 때 어떻게 확인하나요?",
+    "tts": "지시가 모호할 때 어떻게 확인하나요?",
+    "extra": {
+      "sampleAnswerKo": "제가 이해한 내용을 한 문장으로 요약해서 확인합니다. 예: “정리하면 ___까지 하면 될까요?”",
+      "sampleAnswerEn": "I summarize my understanding in one sentence to confirm. For example: “So to confirm, should I do up to ___?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0066",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "실패를 공유하는 문화에 대해 어떻게 생각하나요?",
+    "tts": "실패를 공유하는 문화에 대해 어떻게 생각하나요?",
+    "extra": {
+      "sampleAnswerKo": "좋다고 생각합니다. 실패를 숨기면 같은 문제가 반복됩니다. 원인을 공유하면 팀이 더 빨리 성장할 수 있습니다.",
+      "sampleAnswerEn": "I think it’s positive. Hiding failures leads to repeated issues. Sharing root causes helps the team grow faster.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0067",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "업무 윤리(정직/책임)에 대해 어떻게 생각하나요?",
+    "tts": "업무 윤리에 대해 어떻게 생각하나요?",
+    "extra": {
+      "sampleAnswerKo": "정직과 책임은 기본이라고 생각합니다. 문제가 생기면 빨리 공유하고, 해결까지 책임 있게 마무리합니다.",
+      "sampleAnswerEn": "I believe honesty and responsibility are fundamentals. If an issue happens, I share it early and own it through resolution.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0068",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "배려가 필요한 상황에서 어떻게 행동하나요?",
+    "tts": "배려가 필요한 상황에서 어떻게 행동하나요?",
+    "extra": {
+      "sampleAnswerKo": "상대 상황을 먼저 확인하고, 일정과 부담을 고려해 조율합니다. 필요한 도움은 구체적으로 제안합니다.",
+      "sampleAnswerEn": "I check the other person’s situation first and coordinate considering timelines and workload. I offer concrete help when needed.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0069",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "업무에서 예의/말투는 어떤 점을 신경 쓰나요?",
+    "tts": "업무에서 예의와 말투는 어떤 점을 신경 쓰나요?",
+    "extra": {
+      "sampleAnswerKo": "상대가 편하게 이해할 수 있게 짧고 명확하게 말합니다. 요청/거절할 때는 이유와 대안을 함께 전달합니다.",
+      "sampleAnswerEn": "I speak clearly and concisely so others can understand easily. When requesting or refusing, I provide reasons and alternatives.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0070",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "규정과 현실이 충돌할 때 어떻게 하나요?",
+    "tts": "규정과 현실이 충돌할 때 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "우선 규정의 목적을 이해하고, 리스크를 최소화하는 대안을 찾습니다. 필요한 경우 승인 절차를 거칩니다.",
+      "sampleAnswerEn": "I understand the purpose of the rule and look for an alternative that minimizes risk. If needed, I follow the approval process.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+
+  {
+    "id": "wk0071",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 자주 쓰는 이메일/메시지 표현을 말해 주세요.",
+    "tts": "업무에서 자주 쓰는 이메일 또는 메시지 표현을 말해 주세요.",
+    "extra": {
+      "sampleAnswerKo": "예를 들어 “확인 부탁드립니다”, “공유드립니다”, “가능하실까요?”, “이슈가 있어서 연락드립니다” 같은 표현을 자주 씁니다.",
+      "sampleAnswerEn": "For example, I often use phrases like “Please check,” “Sharing this,” “Would it be possible?”, and “I’m reaching out due to an issue.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0072",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "일정이 늦어질 때 어떻게 보고하나요?",
+    "tts": "일정이 늦어질 때 어떻게 보고하나요?",
+    "extra": {
+      "sampleAnswerKo": "지연 이유와 영향 범위를 먼저 공유하고, 새로운 일정과 대응 계획을 함께 제시합니다. 예: “___ 때문에 ___일까지 필요합니다.”",
+      "sampleAnswerEn": "I share the reason and impact first, then propose a new timeline and plan. For example: “Due to ___, I need until ___.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0073",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "전화로 업무를 해야 할 때 불안하면 어떻게 하나요?",
+    "tts": "전화로 업무를 해야 할 때 불안하면 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "핵심 문장을 미리 적어두고 통화합니다. 모르면 “죄송하지만 다시 한 번 말씀해 주실 수 있을까요?”라고 정중히 요청합니다.",
+      "sampleAnswerEn": "I write down key sentences beforehand. If I don’t understand, I politely ask, “Sorry, could you please say that again?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0074",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "회의 일정 조율을 한국어로 어떻게 하나요?",
+    "tts": "회의 일정 조율을 한국어로 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "“가능한 시간대가 있으실까요?”, “___일 ___시에 괜찮으세요?”, “다른 시간도 가능합니다”처럼 말합니다.",
+      "sampleAnswerEn": "I say things like “What time works for you?”, “Is ___ at ___ okay?”, and “I’m flexible with other times as well.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0075",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 요청을 받을 때 확인 질문은 어떻게 하나요?",
+    "tts": "업무 요청을 받을 때 확인 질문은 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "완료 기준, 마감, 우선순위를 확인합니다. 예: “완료 기준이 ___ 맞나요?”, “마감은 ___인가요?”",
+      "sampleAnswerEn": "I confirm definition of done, deadline, and priority. For example: “Is the completion criteria ___?” “Is the deadline ___?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0076",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 인수인계를 받을 때 무엇을 확인하나요?",
+    "tts": "업무 인수인계를 받을 때 무엇을 확인하나요?",
+    "extra": {
+      "sampleAnswerKo": "현재 상태, 이슈, 담당자, 관련 자료 위치를 확인합니다. 그리고 다음 액션과 마감을 정리합니다.",
+      "sampleAnswerEn": "I check current status, issues, owners, and where materials are stored. Then I summarize next actions and deadlines.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0077",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 중 이해가 안 될 때 정중하게 어떻게 말하나요?",
+    "tts": "업무 중 이해가 안 될 때 정중하게 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“제가 정확히 이해했는지 확인하고 싶습니다”, “예시로 한 번만 설명해 주실 수 있을까요?”라고 말합니다.",
+      "sampleAnswerEn": "I say, “I’d like to confirm I understood correctly,” or “Could you explain once with an example?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0078",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 우선순위가 충돌할 때 어떻게 말하나요?",
+    "tts": "업무 우선순위가 충돌할 때 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“현재 ___를 먼저 해야 해서, ___는 ___시 이후에 가능할 것 같습니다. 우선순위를 조정할까요?”라고 말합니다.",
+      "sampleAnswerEn": "I say, “I need to handle ___ first, so I can do ___ after ___. Should we adjust priorities?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0079",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "고객에게 정중히 사과해야 할 때 어떻게 말하나요?",
+    "tts": "고객에게 정중히 사과해야 할 때 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“불편을 드려 죄송합니다. 현재 ___ 상황이고, ___까지 조치하겠습니다.”처럼 말합니다.",
+      "sampleAnswerEn": "I say, “I’m sorry for the inconvenience. Currently, ___ is happening, and we will resolve it by ___.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0080",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 종료 전에 어떤 식으로 마무리하나요?",
+    "tts": "업무 종료 전에 어떤 식으로 마무리하나요?",
+    "extra": {
+      "sampleAnswerKo": "오늘 한 일과 내일 할 일을 짧게 정리합니다. 진행 중인 이슈가 있으면 상태와 다음 액션을 공유하고 퇴근합니다.",
+      "sampleAnswerEn": "I summarize what I did today and what I’ll do tomorrow. If there are ongoing issues, I share the status and next actions before leaving.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+    {
+    "id": "wk0081",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "왜 한국 회사에서 일하고 싶나요?",
+    "tts": "왜 한국 회사에서 일하고 싶나요?",
+    "extra": {
+      "sampleAnswerKo": "한국의 업무 방식과 ___ 산업을 직접 경험하고 싶습니다. 특히 빠른 실행과 팀 협업 문화를 배우고 싶습니다.",
+      "sampleAnswerEn": "I want to experience Korea’s work style and the ___ industry directly. I especially want to learn the fast execution and teamwork culture.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0082",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무에서 가장 자신 있는 것은 무엇인가요?",
+    "tts": "업무에서 가장 자신 있는 것은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 ___을(를) 구조화해서 정리하는 데 자신이 있습니다. 그래서 복잡한 업무도 단계별로 빠르게 처리합니다.",
+      "sampleAnswerEn": "I’m confident in structuring and organizing ___. That helps me handle complex tasks quickly step by step.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0083",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무에서 가장 어려운 부분은 무엇이었나요?",
+    "tts": "업무에서 가장 어려운 부분은 무엇이었나요?",
+    "extra": {
+      "sampleAnswerKo": "처음에는 ___ 부분이 가장 어려웠습니다. 그래서 자료를 찾아보고, 동료에게 질문하면서 빠르게 보완했습니다.",
+      "sampleAnswerEn": "At first, the hardest part was ___. So I researched and asked colleagues questions to improve quickly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0084",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "당신은 어떤 환경에서 성과가 잘 나오나요?",
+    "tts": "당신은 어떤 환경에서 성과가 잘 나오나요?",
+    "extra": {
+      "sampleAnswerKo": "목표와 역할이 명확하고, 피드백이 빠른 환경에서 성과가 잘 나옵니다. 우선순위를 정해 집중할 수 있기 때문입니다.",
+      "sampleAnswerEn": "I perform best in an environment with clear goals/roles and fast feedback, because I can prioritize and focus.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0085",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무에서 동기부여는 어디서 얻나요?",
+    "tts": "업무에서 동기부여는 어디서 얻나요?",
+    "extra": {
+      "sampleAnswerKo": "제가 만든 결과가 사용자/팀에 도움이 될 때 동기부여를 얻습니다. 작은 개선이라도 효과가 보이면 더 열심히 하게 됩니다.",
+      "sampleAnswerEn": "I feel motivated when my output helps users or the team. Even small improvements motivate me when I see real impact.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0086",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무 중 가장 많이 사용하는 도구는 무엇인가요?",
+    "tts": "업무 중 가장 많이 사용하는 도구는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 주로 ___(툴/서비스)을 사용합니다. 협업에는 ___, 문서에는 ___를 사용해서 정보를 정리합니다.",
+      "sampleAnswerEn": "I mainly use ___. For collaboration I use ___, and for documentation I use ___ to keep information organized.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0087",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무에서 가장 중요하게 생각하는 커뮤니케이션 원칙은 무엇인가요?",
+    "tts": "업무에서 가장 중요하게 생각하는 커뮤니케이션 원칙은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 빠른 공유와 명확한 표현을 중요하게 생각합니다. 결론-근거-다음 액션 순서로 말하려고 합니다.",
+      "sampleAnswerEn": "I value quick sharing and clear communication. I try to communicate in the order of conclusion, evidence, and next action.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0088",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "일을 하면서 가장 뿌듯했던 순간은 언제였나요?",
+    "tts": "일을 하면서 가장 뿌듯했던 순간은 언제였나요?",
+    "extra": {
+      "sampleAnswerKo": "제가 개선한 ___ 때문에 문제가 해결되고, 사용자/팀이 편해졌을 때 가장 뿌듯했습니다.",
+      "sampleAnswerEn": "I felt most proud when my improvement to ___ solved a problem and made things easier for users or the team.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0089",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "우리 회사에 대해 어떤 점을 조사했나요?",
+    "tts": "우리 회사에 대해 어떤 점을 조사했나요?",
+    "extra": {
+      "sampleAnswerKo": "사업 영역과 최근 뉴스/제품을 확인했습니다. 특히 ___ 서비스와 ___ 방향이 인상적이었습니다.",
+      "sampleAnswerEn": "I reviewed your business area and recent news/products. I was especially impressed by your ___ service and ___ direction.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0090",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "입사하면 가장 먼저 하고 싶은 일은 무엇인가요?",
+    "tts": "입사하면 가장 먼저 하고 싶은 일은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "먼저 업무 프로세스와 기준을 빠르게 파악하겠습니다. 그리고 작은 업무부터 빠르게 성과를 내고 신뢰를 쌓고 싶습니다.",
+      "sampleAnswerEn": "First, I’ll quickly understand your processes and standards. Then I want to deliver small wins early to build trust.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+
+  {
+    "id": "wk0091",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "프로젝트에서 목표 대비 결과가 달랐던 경험이 있나요?",
+    "tts": "프로젝트에서 목표 대비 결과가 달랐던 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 처음 목표는 ___였지만, 진행 중 ___ 이슈가 있어 방향을 조정했습니다. 결과적으로 ___에 더 집중해 성과를 냈습니다.",
+      "sampleAnswerEn": "Yes. The initial goal was ___, but due to ___ we adjusted direction. In the end, we focused more on ___ and achieved results.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0092",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "새로운 아이디어를 제안해서 반영된 경험이 있나요?",
+    "tts": "새로운 아이디어를 제안해서 반영된 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. ___ 문제를 발견해서 ___ 아이디어를 제안했습니다. 작은 실험을 했고, 효과가 있어서 정식으로 적용했습니다.",
+      "sampleAnswerEn": "Yes. I identified a problem with ___ and proposed ___. We ran a small experiment, saw impact, and adopted it officially.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0093",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "리스크를 미리 발견하고 대응했던 경험이 있나요?",
+    "tts": "리스크를 미리 발견하고 대응했던 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. ___에서 리스크를 예상하고 체크리스트를 만들었습니다. 덕분에 문제를 미리 막거나 영향 범위를 줄일 수 있었습니다.",
+      "sampleAnswerEn": "Yes. I anticipated risks in ___ and created a checklist. It helped prevent issues early or reduce the impact scope.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0094",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "고객 불만을 해결한 경험이 있나요?",
+    "tts": "고객 불만을 해결한 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 불만 내용을 먼저 정리하고 우선순위를 확인했습니다. 해결안을 제시하고, 진행 상황을 공유해서 신뢰를 회복했습니다.",
+      "sampleAnswerEn": "Yes. I first organized the complaint details and confirmed priority. I proposed a solution and shared updates to regain trust.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0095",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "업무 범위를 조정했던 경험이 있나요?",
+    "tts": "업무 범위를 조정했던 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 일정과 리소스를 고려해 꼭 필요한 기능부터 진행했습니다. 범위를 문서로 합의하고 단계적으로 확장했습니다.",
+      "sampleAnswerEn": "Yes. Considering timeline and resources, we delivered essential features first. We aligned scope in writing and expanded step by step.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0096",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "데이터를 보고 의사결정한 경험이 있나요?",
+    "tts": "데이터를 보고 의사결정한 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. ___ 데이터를 분석해서 문제를 찾았습니다. A/B 테스트나 비교 분석으로 방향을 정했고, 결과를 공유했습니다.",
+      "sampleAnswerEn": "Yes. I analyzed ___ data to find issues. I decided direction through A/B tests or comparison analysis and shared results.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0097",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "문서를 만들어 팀에 도움이 된 경험이 있나요?",
+    "tts": "문서를 만들어 팀에 도움이 된 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 자주 나오는 질문과 절차를 문서로 정리했습니다. 신규 팀원이 빠르게 적응했고, 반복 질문이 줄었습니다.",
+      "sampleAnswerEn": "Yes. I documented FAQs and procedures. New team members onboarded faster and repeated questions decreased.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0098",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "여러 이해관계자와 조율했던 경험이 있나요?",
+    "tts": "여러 이해관계자와 조율했던 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 요구사항이 달라서 우선순위와 기준을 정리했습니다. 공통 목표를 기준으로 합의하고 일정에 반영했습니다.",
+      "sampleAnswerEn": "Yes. Because requirements differed, I clarified priorities and criteria. We aligned around a common goal and reflected it in the schedule.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0099",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "품질 문제를 발견하고 개선한 경험이 있나요?",
+    "tts": "품질 문제를 발견하고 개선한 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. ___에서 오류 패턴을 발견했습니다. 원인을 분석하고 테스트/검수 프로세스를 개선해서 오류를 줄였습니다.",
+      "sampleAnswerEn": "Yes. I found an error pattern in ___. I analyzed the cause and improved testing/QA to reduce errors.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0100",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "가장 큰 배움을 준 프로젝트는 무엇이었나요?",
+    "tts": "가장 큰 배움을 준 프로젝트는 무엇이었나요?",
+    "extra": {
+      "sampleAnswerKo": "___ 프로젝트가 가장 큰 배움을 줬습니다. 목표 설정과 커뮤니케이션이 성과에 얼마나 중요한지 알게 됐습니다.",
+      "sampleAnswerEn": "The ___ project taught me the most. I learned how important goal-setting and communication are for results.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+
+  {
+    "id": "wk0101",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "상대가 화가 났을 때 어떻게 대화하나요?",
+    "tts": "상대가 화가 났을 때 어떻게 대화하나요?",
+    "extra": {
+      "sampleAnswerKo": "감정을 인정하고 먼저 경청합니다. 그 다음 사실과 해결책을 분리해서 정리하고, 다음 액션을 제안합니다.",
+      "sampleAnswerEn": "I acknowledge emotions and listen first. Then I separate facts from solutions and propose next actions.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0102",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "동료가 실수했을 때 어떻게 도와주나요?",
+    "tts": "동료가 실수했을 때 어떻게 도와주나요?",
+    "extra": {
+      "sampleAnswerKo": "문제를 같이 정리하고 영향 범위를 줄이는 것부터 돕습니다. 이후 재발 방지 방법을 함께 만들고 공유합니다.",
+      "sampleAnswerEn": "I help organize the issue and reduce impact first. Then we create and share a prevention plan together.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0103",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "다른 부서와 협업할 때 주의하는 점은 무엇인가요?",
+    "tts": "다른 부서와 협업할 때 주의하는 점은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "용어와 목표가 다를 수 있어서, 요구사항과 완료 기준을 문서로 정리합니다. 일정과 책임 범위를 명확히 합니다.",
+      "sampleAnswerEn": "Because terms and goals may differ, I document requirements and definition of done. I clarify timelines and responsibilities.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0104",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "회의에서 말이 막힐 때 어떻게 하나요?",
+    "tts": "회의에서 말이 막힐 때 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "짧게 핵심만 말하고, 이후 메시지로 보충합니다. 모르면 “잠깐 확인하고 다시 공유드리겠습니다”라고 말합니다.",
+      "sampleAnswerEn": "I share the key point briefly and follow up by message. If I don’t know, I say, “Let me check and get back to you.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0105",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "팀에서 의견을 설득해야 할 때 어떤 방식으로 하나요?",
+    "tts": "팀에서 의견을 설득해야 할 때 어떤 방식으로 하나요?",
+    "extra": {
+      "sampleAnswerKo": "목표와 데이터, 그리고 리스크를 기준으로 설명합니다. 가능하면 작은 실험을 제안해 결과로 설득합니다.",
+      "sampleAnswerEn": "I explain based on goals, data, and risks. When possible, I propose a small experiment and persuade with results.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0106",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "업무 분배가 불공평하다고 느낄 때 어떻게 하나요?",
+    "tts": "업무 분배가 불공평하다고 느낄 때 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "감정적으로 말하지 않고 사실을 기준으로 정리합니다. 업무량과 우선순위를 공유하고, 조정이 가능한지 상의합니다.",
+      "sampleAnswerEn": "I avoid being emotional and focus on facts. I share workload and priorities and discuss if adjustments are possible.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0107",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "피드백을 받았는데 동의하지 않을 때 어떻게 하나요?",
+    "tts": "피드백을 받았는데 동의하지 않을 때 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "먼저 상대가 왜 그렇게 생각했는지 확인합니다. 그 다음 제 근거를 정중히 설명하고, 필요하면 대안을 제시합니다.",
+      "sampleAnswerEn": "I first understand why they think that way. Then I explain my reasoning politely and propose alternatives if needed.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0108",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "팀원이 늦게 답장할 때 어떻게 대응하나요?",
+    "tts": "팀원이 늦게 답장할 때 어떻게 대응하나요?",
+    "extra": {
+      "sampleAnswerKo": "긴급도에 따라 채널을 바꿉니다. 급하면 전화/대면으로 확인하고, 급하지 않으면 마감 시간을 함께 공유합니다.",
+      "sampleAnswerEn": "I switch channels depending on urgency. If it’s urgent, I confirm via call/in-person; if not, I share the deadline clearly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0109",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "회의 시간을 줄이기 위해 무엇을 하나요?",
+    "tts": "회의 시간을 줄이기 위해 무엇을 하나요?",
+    "extra": {
+      "sampleAnswerKo": "아젠다와 결정할 내용을 미리 공유합니다. 회의 후에는 결정사항과 담당자/마감을 요약해서 공유합니다.",
+      "sampleAnswerEn": "I share the agenda and decisions needed in advance. After the meeting, I summarize decisions, owners, and deadlines.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0110",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "협업에서 가장 힘들었던 점은 무엇이었나요?",
+    "tts": "협업에서 가장 힘들었던 점은 무엇이었나요?",
+    "extra": {
+      "sampleAnswerKo": "요구사항이 자주 바뀌는 것이 힘들었습니다. 그래서 변경 사항을 문서로 남기고, 기준을 합의해서 관리했습니다.",
+      "sampleAnswerEn": "Frequent requirement changes were challenging. So I documented changes and aligned on criteria to manage them.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+
+  {
+    "id": "wk0111",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 계획을 세울 때 어떤 방식으로 하나요?",
+    "tts": "업무 계획을 세울 때 어떤 방식으로 하나요?",
+    "extra": {
+      "sampleAnswerKo": "마감과 완료 기준을 먼저 확인하고, 작업을 작은 단계로 나눕니다. 중요한 리스크는 미리 체크합니다.",
+      "sampleAnswerEn": "I confirm deadlines and definition of done first, then break work into small steps. I check key risks early.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0112",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "긴 업무를 끝까지 유지하는 방법이 있나요?",
+    "tts": "긴 업무를 끝까지 유지하는 방법이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "작은 목표로 쪼개서 진행합니다. 완료할 때마다 체크하면서 동기부여를 유지하고, 중간 점검을 합니다.",
+      "sampleAnswerEn": "I break it into small goals. I keep motivation by checking progress and doing mid-point reviews.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0113",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "반복적으로 실수하는 부분이 있으면 어떻게 하나요?",
+    "tts": "반복적으로 실수하는 부분이 있으면 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "실수 패턴을 기록하고 체크리스트를 만듭니다. 그리고 작업 전에 한 번 더 확인하는 루틴을 만듭니다.",
+      "sampleAnswerEn": "I record error patterns and create a checklist. I also build a routine to double-check before submitting.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0114",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 속도와 품질 중 무엇을 더 중요하게 생각하나요?",
+    "tts": "업무 속도와 품질 중 무엇을 더 중요하게 생각하나요?",
+    "extra": {
+      "sampleAnswerKo": "상황에 따라 다르지만, 기본 품질은 반드시 지켜야 합니다. 급할 때는 범위를 조정해 속도와 품질을 모두 지키려고 합니다.",
+      "sampleAnswerEn": "It depends, but baseline quality must be maintained. When urgent, I adjust scope to protect both speed and quality.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0115",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "일을 시작할 때 가장 먼저 확인하는 3가지는 무엇인가요?",
+    "tts": "일을 시작할 때 가장 먼저 확인하는 세 가지는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "완료 기준, 마감, 우선순위입니다. 이 3가지를 먼저 확인하면 방향이 명확해집니다.",
+      "sampleAnswerEn": "Definition of done, deadline, and priority. Confirming these three makes the direction clear.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0116",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 중 메모/기록은 어떻게 하나요?",
+    "tts": "업무 중 메모나 기록은 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "회의나 요청은 바로 기록합니다. 결론/결정사항/담당자/마감을 정리하고, 공유가 필요한 내용은 팀에 전달합니다.",
+      "sampleAnswerEn": "I record meetings and requests immediately. I organize decisions/owners/deadlines and share what the team needs to know.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0117",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 중 우선순위가 바뀌면 어떻게 하나요?",
+    "tts": "업무 중 우선순위가 바뀌면 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "변경 이유와 영향 범위를 확인합니다. 그리고 현재 작업을 어디까지 진행할지 정하고, 새 우선순위를 기준으로 다시 계획합니다.",
+      "sampleAnswerEn": "I confirm the reason and impact. Then I decide how far to continue current work and re-plan based on the new priorities.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0118",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무가 막힐 때(진행이 안 될 때) 어떻게 하나요?",
+    "tts": "업무가 막힐 때 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "문제를 더 작게 쪼개서 원인을 찾습니다. 그래도 해결이 어려우면, 시도한 내용과 함께 도움을 요청합니다.",
+      "sampleAnswerEn": "I break the problem down to find the root cause. If it’s still hard, I ask for help with what I already tried.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0119",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 진행 상황은 얼마나 자주 공유하나요?",
+    "tts": "업무 진행 상황은 얼마나 자주 공유하나요?",
+    "extra": {
+      "sampleAnswerKo": "기본적으로 매일/주기적으로 공유합니다. 이슈가 생기면 즉시 공유하고, 다음 액션과 예상 일정을 함께 전달합니다.",
+      "sampleAnswerEn": "I share updates daily/regularly. If an issue arises, I share it immediately with next actions and an estimated timeline.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0120",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 실수를 줄이기 위해 어떤 습관을 가지고 있나요?",
+    "tts": "업무 실수를 줄이기 위해 어떤 습관을 가지고 있나요?",
+    "extra": {
+      "sampleAnswerKo": "제출 전에 체크리스트로 한 번 더 확인합니다. 중요한 작업은 시간 여유를 두고, 마지막에 다시 검토합니다.",
+      "sampleAnswerEn": "I double-check with a checklist before submitting. For important tasks, I leave buffer time and review again at the end.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+
+  {
+    "id": "wk0121",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "회사에서 선호하는 리더 스타일은 무엇인가요?",
+    "tts": "회사에서 선호하는 리더 스타일은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "방향과 기대치를 명확히 제시하고, 피드백을 주는 리더를 선호합니다. 자율성을 주되 책임도 명확한 스타일이 좋습니다.",
+      "sampleAnswerEn": "I prefer a leader who sets clear direction/expectations and gives feedback. I like autonomy with clear accountability.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0122",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "회사 규칙을 어겨야 하는 상황이 오면 어떻게 하나요?",
+    "tts": "회사 규칙을 어겨야 하는 상황이 오면 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "원칙적으로 규칙은 지켜야 한다고 생각합니다. 불가피하면 리스크를 공유하고 승인 절차를 통해 진행합니다.",
+      "sampleAnswerEn": "In principle, rules should be followed. If unavoidable, I share risks and proceed through the approval process.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0123",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "상대방을 존중하면서 의견을 말하는 방법은 무엇인가요?",
+    "tts": "상대방을 존중하면서 의견을 말하는 방법은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "먼저 상대 의견을 인정하고, 제 의견은 근거와 함께 조심스럽게 말합니다. 예: “그 부분도 이해합니다. 다만 ___는 어떨까요?”",
+      "sampleAnswerEn": "I acknowledge their point first and share mine with reasons carefully. For example: “I understand that. However, how about ___?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0124",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "회식이나 사내 행사에 대해 어떻게 생각하나요?",
+    "tts": "회식이나 사내 행사에 대해 어떻게 생각하나요?",
+    "extra": {
+      "sampleAnswerKo": "팀 관계를 좋게 만드는 데 도움이 될 수 있다고 생각합니다. 다만 개인 일정이 있을 때는 미리 양해를 구하고 조율합니다.",
+      "sampleAnswerEn": "I think they can help team bonding. If I have personal plans, I communicate in advance and coordinate politely.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0125",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "업무 중 예의 바른 거절은 어떻게 하나요?",
+    "tts": "업무 중 예의 바른 거절은 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "바로 거절하기보다 이유와 대안을 함께 말합니다. 예: “지금 ___ 때문에 어렵지만, ___는 가능합니다.”",
+      "sampleAnswerEn": "Instead of saying no directly, I explain the reason and offer an alternative. For example: “It’s difficult due to ___, but I can do ___.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0126",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "업무에서 신뢰를 쌓는 방법은 무엇이라고 생각하나요?",
+    "tts": "업무에서 신뢰를 쌓는 방법은 무엇이라고 생각하나요?",
+    "extra": {
+      "sampleAnswerKo": "약속을 지키고, 문제를 숨기지 않고 빨리 공유하는 것이라고 생각합니다. 진행 상황을 투명하게 공유하는 것도 중요합니다.",
+      "sampleAnswerEn": "I think it’s about keeping promises and sharing issues early instead of hiding them. Transparent progress updates also matter.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0127",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "실수를 인정하는 것이 왜 중요하다고 생각하나요?",
+    "tts": "실수를 인정하는 것이 왜 중요하다고 생각하나요?",
+    "extra": {
+      "sampleAnswerKo": "빠르게 인정해야 영향 범위를 줄일 수 있습니다. 그리고 해결을 빨리 시작할 수 있어서 팀의 신뢰도 지킬 수 있습니다.",
+      "sampleAnswerEn": "Admitting quickly reduces impact and lets us start fixing sooner, which helps maintain the team’s trust.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0128",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "직장 내에서 ‘눈치’가 필요한 상황을 어떻게 이해하나요?",
+    "tts": "직장 내에서 눈치가 필요한 상황을 어떻게 이해하나요?",
+    "extra": {
+      "sampleAnswerKo": "상황과 맥락을 먼저 보고, 상대의 표정/톤을 확인합니다. 애매하면 정중하게 확인 질문을 해서 오해를 줄입니다.",
+      "sampleAnswerEn": "I look at the context and the other person’s tone. If unclear, I ask a polite clarifying question to avoid misunderstandings.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0129",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "권한이 없는 일이라면 어떻게 처리하나요?",
+    "tts": "권한이 없는 일이라면 어떻게 처리하나요?",
+    "extra": {
+      "sampleAnswerKo": "제가 할 수 있는 범위까지는 먼저 확인합니다. 이후에는 담당자에게 정확히 전달하고, 필요한 승인 절차를 요청합니다.",
+      "sampleAnswerEn": "I check what I can do within my scope first. Then I hand it off to the right owner and request necessary approvals.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0130",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "상사가 바쁠 때 질문은 어떻게 하나요?",
+    "tts": "상사가 바쁠 때 질문은 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "질문을 정리해서 짧게 묻습니다. 선택지가 있으면 함께 제시하고, “지금 1분 괜찮으실까요?”처럼 시간을 배려합니다.",
+      "sampleAnswerEn": "I organize questions and ask briefly. If I have options, I propose them and respect their time: “Do you have one minute now?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+
+  {
+    "id": "wk0131",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 이메일 첫 문장을 한국어로 어떻게 시작하나요?",
+    "tts": "업무 이메일 첫 문장을 한국어로 어떻게 시작하나요?",
+    "extra": {
+      "sampleAnswerKo": "예: “안녕하세요, ___ 관련하여 연락드립니다.” 또는 “___ 건으로 확인 부탁드립니다.” 같은 표현을 씁니다.",
+      "sampleAnswerEn": "For example: “Hello, I’m reaching out regarding ___,” or “Please check the ___ matter.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0132",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 결과물을 공유할 때 어떤 표현을 쓰나요?",
+    "tts": "업무 결과물을 공유할 때 어떤 표현을 쓰나요?",
+    "extra": {
+      "sampleAnswerKo": "“자료 공유드립니다”, “초안 전달드립니다”, “확인 부탁드립니다” 같은 표현을 씁니다.",
+      "sampleAnswerEn": "I use phrases like “Sharing the document,” “Sending the draft,” and “Please review.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0133",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 요청을 다시 확인하고 싶을 때 어떻게 말하나요?",
+    "tts": "업무 요청을 다시 확인하고 싶을 때 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“제가 이해한 게 맞는지 확인하고 싶습니다. 정리하면 ___가 맞을까요?”라고 말합니다.",
+      "sampleAnswerEn": "I say, “I’d like to confirm my understanding. To summarize, is it ___?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0134",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "회의에서 결정된 내용을 정리해서 공유할 때 어떻게 쓰나요?",
+    "tts": "회의에서 결정된 내용을 정리해서 공유할 때 어떻게 쓰나요?",
+    "extra": {
+      "sampleAnswerKo": "“회의 내용 요약드립니다. 결정사항은 ___, 담당자는 ___, 마감은 ___입니다.”처럼 정리합니다.",
+      "sampleAnswerEn": "I write: “Meeting summary: Decision is ___, owner is ___, deadline is ___.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0135",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 중 ‘잠시만요’ ‘죄송합니다’ 같은 완충 표현은 어떻게 쓰나요?",
+    "tts": "업무 중 완충 표현은 어떻게 쓰나요?",
+    "extra": {
+      "sampleAnswerKo": "예: “잠시만 확인하겠습니다”, “죄송하지만 다시 한 번 말씀해 주실 수 있을까요?”처럼 정중하게 말합니다.",
+      "sampleAnswerEn": "For example: “Let me check for a moment,” or “Sorry, could you please repeat that?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0136",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "상대에게 재촉하지 않게 요청하는 방법은 무엇인가요?",
+    "tts": "상대에게 재촉하지 않게 요청하는 방법은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "“가능하실 때 확인 부탁드립니다”, “시간 되실 때 답변 부탁드립니다”처럼 완곡하게 요청합니다.",
+      "sampleAnswerEn": "I ask softly: “When you have time, please check,” or “Please reply when convenient.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0137",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "일정 변경을 요청할 때 어떻게 말하나요?",
+    "tts": "일정 변경을 요청할 때 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“현재 ___ 사유로 일정 조정이 필요합니다. ___일까지로 변경 가능할까요?”라고 말합니다.",
+      "sampleAnswerEn": "I say, “Due to ___, I need to adjust the schedule. Would it be possible to change it to ___?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0138",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 중 ‘제가 처리하겠습니다’는 어떻게 자연스럽게 말하나요?",
+    "tts": "업무 중 제가 처리하겠습니다는 어떻게 자연스럽게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“제가 이 부분 맡아서 진행하겠습니다”, “제가 확인하고 공유드리겠습니다”처럼 말합니다.",
+      "sampleAnswerEn": "I say, “I’ll take this part and handle it,” or “I’ll check and get back to you.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0139",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 중 ‘수정하겠습니다’ ‘반영하겠습니다’는 어떻게 말하나요?",
+    "tts": "업무 중 수정하겠습니다 반영하겠습니다는 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“수정해서 다시 공유드리겠습니다”, “말씀하신 내용 반영하겠습니다”처럼 말합니다.",
+      "sampleAnswerEn": "I say, “I’ll revise it and share again,” or “I’ll incorporate what you mentioned.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0140",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 자주 쓰는 마무리 인사 표현은 무엇인가요?",
+    "tts": "업무에서 자주 쓰는 마무리 인사 표현은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "예: “확인 부탁드립니다. 감사합니다.” “바쁘신데 감사합니다.” “좋은 하루 되세요.” 같은 표현을 씁니다.",
+      "sampleAnswerEn": "For example: “Please review, thank you,” “Thank you for your time,” and “Have a great day.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0141",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "자기소개를 30초로 해주세요.",
+    "tts": "자기소개를 30초로 해주세요.",
+    "extra": {
+      "sampleAnswerKo": "안녕하세요. 저는 ___ 분야에서 ___년 경험이 있는 ___입니다. 빠르게 배우고 실행하며, 팀과 원활하게 소통하는 강점이 있습니다.",
+      "sampleAnswerEn": "Hello. I’m a ___ with ___ years of experience in ___. I learn fast, execute quickly, and communicate well with the team.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0142",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "이 직무를 위해 준비한 것은 무엇인가요?",
+    "tts": "이 직무를 위해 준비한 것은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 ___ 역량을 위해 ___를 공부하고, ___ 프로젝트로 실습했습니다. 그래서 실무에 빠르게 적용할 수 있습니다.",
+      "sampleAnswerEn": "I prepared for this role by studying ___ and practicing through a ___ project. So I can apply it quickly in real work.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0143",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무에서 실수했을 때 어떻게 처리하나요?",
+    "tts": "업무에서 실수했을 때 어떻게 처리하나요?",
+    "extra": {
+      "sampleAnswerKo": "먼저 영향 범위를 확인하고 바로 공유합니다. 그리고 원인을 정리한 뒤 재발 방지 방법을 적용합니다.",
+      "sampleAnswerEn": "I check the impact and share it immediately. Then I identify the cause and apply a prevention plan.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0144",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무 중 모르는 것이 나오면 어떻게 하나요?",
+    "tts": "업무 중 모르는 것이 나오면 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "먼저 자료를 찾아보고, 해결이 안 되면 시도한 내용을 정리해서 질문합니다. 배우는 속도가 빠른 편입니다.",
+      "sampleAnswerEn": "I research first, and if it’s still unclear, I ask with what I already tried. I learn quickly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0145",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무에서 가장 중요하게 생각하는 가치가 있나요?",
+    "tts": "업무에서 가장 중요하게 생각하는 가치가 있나요?",
+    "extra": {
+      "sampleAnswerKo": "저는 책임감과 신뢰를 가장 중요하게 생각합니다. 약속을 지키고, 문제가 생기면 숨기지 않고 빠르게 공유합니다.",
+      "sampleAnswerEn": "I value responsibility and trust the most. I keep commitments and share issues early instead of hiding them.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0146",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "한국어 발음/표현이 어려울 때 어떻게 보완하나요?",
+    "tts": "한국어 발음이나 표현이 어려울 때 어떻게 보완하나요?",
+    "extra": {
+      "sampleAnswerKo": "자주 쓰는 문장을 템플릿으로 만들어 반복 연습합니다. 그리고 실제 업무에서 사용하면서 수정받고 개선합니다.",
+      "sampleAnswerEn": "I build templates for common phrases and practice repeatedly. Then I use them at work and improve with feedback.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0147",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "업무에서 가장 자신 없는 부분은 무엇인가요?",
+    "tts": "업무에서 가장 자신 없는 부분은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "처음에는 ___ 부분이 약했습니다. 그래서 체크리스트/학습 계획을 만들고 꾸준히 보완하고 있습니다.",
+      "sampleAnswerEn": "At first, I was weak in ___. So I created a checklist/learning plan and I’m improving steadily.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0148",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "우리 회사에서 어떤 성장을 하고 싶나요?",
+    "tts": "우리 회사에서 어떤 성장을 하고 싶나요?",
+    "extra": {
+      "sampleAnswerKo": "___ 분야에서 실무 경험을 쌓고, 독립적으로 업무를 리드하는 수준까지 성장하고 싶습니다.",
+      "sampleAnswerEn": "I want to build hands-on experience in ___ and grow to a level where I can lead tasks independently.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0149",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "입사 후 1개월 목표는 무엇인가요?",
+    "tts": "입사 후 1개월 목표는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "업무 프로세스와 기준을 이해하고, 작은 업무를 안정적으로 처리하는 것이 목표입니다.",
+      "sampleAnswerEn": "My goal is to understand processes and standards and handle small tasks reliably.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+  {
+    "id": "wk0150",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "interview_basic",
+    "prompt": "입사 후 3개월 목표는 무엇인가요?",
+    "tts": "입사 후 3개월 목표는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "담당 업무를 혼자서 처리할 수 있도록 익숙해지고, 개선 아이디어를 1~2개 제안하는 것이 목표입니다.",
+      "sampleAnswerEn": "My goal is to handle my responsibilities independently and propose 1–2 improvement ideas.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["interview_basic", "level1"]
+  },
+
+  {
+    "id": "wk0151",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "마감이 촉박한 상황에서 성공한 경험이 있나요?",
+    "tts": "마감이 촉박한 상황에서 성공한 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 업무를 우선순위로 쪼개고 필수 작업부터 처리했습니다. 진행 상황을 공유해서 협업을 빠르게 만들었습니다.",
+      "sampleAnswerEn": "Yes. I broke down tasks by priority and delivered essentials first. I shared progress to speed up collaboration.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0152",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "업무를 자동화해서 시간을 줄인 경험이 있나요?",
+    "tts": "업무를 자동화해서 시간을 줄인 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 반복 작업을 ___로 자동화해서 시간을 줄였습니다. 그 결과 팀이 더 중요한 업무에 집중할 수 있었습니다.",
+      "sampleAnswerEn": "Yes. I automated repetitive work using ___ and saved time. As a result, the team could focus on more important tasks.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0153",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "업무 중 우선순위를 잘못 잡았던 경험이 있나요?",
+    "tts": "업무 중 우선순위를 잘못 잡았던 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 중요도를 잘못 판단해 시간이 낭비된 적이 있습니다. 이후에는 완료 기준과 영향도를 먼저 확인합니다.",
+      "sampleAnswerEn": "Yes. I misjudged priorities and wasted time. Since then, I confirm definition of done and impact first.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0154",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "요구사항이 애매해서 문제를 만든 경험이 있나요?",
+    "tts": "요구사항이 애매해서 문제를 만든 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 처음 요청이 애매해서 재질문을 했습니다. 예시와 완료 기준을 받아서 오해 없이 진행했습니다.",
+      "sampleAnswerEn": "Yes. The request was unclear, so I asked clarifying questions. I got examples and definition of done and proceeded correctly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0155",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "업무 중 큰 실수를 했던 경험이 있나요?",
+    "tts": "업무 중 큰 실수를 했던 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. ___에서 실수가 있었습니다. 즉시 공유하고 수정했으며, 재발 방지 절차를 만들어 같은 문제가 반복되지 않게 했습니다.",
+      "sampleAnswerEn": "Yes. I made a mistake in ___. I shared it immediately, fixed it, and created a prevention process to avoid repeats.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0156",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "상대방과 오해가 생겼을 때 해결한 경험이 있나요?",
+    "tts": "상대방과 오해가 생겼을 때 해결한 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 사실과 기대치를 다시 확인했습니다. 문서로 정리해 합의했고, 이후에는 공유 방식도 개선했습니다.",
+      "sampleAnswerEn": "Yes. I re-checked facts and expectations. We aligned in writing and improved the way we shared updates afterward.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0157",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "업무 중 시간이 부족해서 도움을 요청한 경험이 있나요?",
+    "tts": "업무 중 시간이 부족해서 도움을 요청한 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. 일정이 부족해서 우선순위를 공유하고 지원을 요청했습니다. 덕분에 핵심 마감은 지킬 수 있었습니다.",
+      "sampleAnswerEn": "Yes. I shared priorities and asked for support due to a tight timeline. That helped us meet the key deadline.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0158",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "고객 요청이 너무 많을 때 어떻게 처리했나요?",
+    "tts": "고객 요청이 너무 많을 때 어떻게 처리했나요?",
+    "extra": {
+      "sampleAnswerKo": "요청을 분류하고 우선순위를 정했습니다. 가능한 범위를 설명하고 일정/순서를 안내해 기대치를 맞췄습니다.",
+      "sampleAnswerEn": "I categorized requests and prioritized them. I explained what was possible and set expectations with order and timeline.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0159",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "작은 개선이 큰 효과를 만든 경험이 있나요?",
+    "tts": "작은 개선이 큰 효과를 만든 경험이 있나요?",
+    "extra": {
+      "sampleAnswerKo": "네. ___를 간단히 개선했는데 처리 시간이 줄었습니다. 누적 효과로 팀 생산성이 좋아졌습니다.",
+      "sampleAnswerEn": "Yes. A small improvement to ___ reduced processing time. The accumulated impact improved team productivity.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+  {
+    "id": "wk0160",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "experience",
+    "prompt": "새로운 팀에 합류했을 때 적응한 방법은 무엇인가요?",
+    "tts": "새로운 팀에 합류했을 때 적응한 방법은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "업무 흐름과 용어부터 정리했습니다. 그리고 자주 하는 질문을 메모해서 빠르게 따라갈 수 있게 했습니다.",
+      "sampleAnswerEn": "I organized the workflow and key terms first. I also kept notes of common questions to ramp up quickly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["experience", "level1"]
+  },
+
+  {
+    "id": "wk0161",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "회의에서 의견이 다르면 어떻게 정리하나요?",
+    "tts": "회의에서 의견이 다르면 어떻게 정리하나요?",
+    "extra": {
+      "sampleAnswerKo": "각 의견의 목표와 근거를 정리합니다. 공통 목표를 기준으로 선택하고, 결정사항을 문서로 남깁니다.",
+      "sampleAnswerEn": "I summarize the goal and reasoning of each opinion. We choose based on a shared goal and document the decision.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0162",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "업무에서 말이 빠른 사람이 있으면 어떻게 하나요?",
+    "tts": "업무에서 말이 빠른 사람이 있으면 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "중요한 부분만 다시 확인 질문을 합니다. 예: “정리하면 ___가 맞을까요?”라고 물어봅니다.",
+      "sampleAnswerEn": "I ask a clarifying question about key points. For example, “To confirm, is it ___?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0163",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "업무 중 ‘그건 제 일이 아닙니다’를 어떻게 말하나요?",
+    "tts": "업무 중 그건 제 일이 아닙니다를 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "직접적으로 말하기보다 담당자를 안내합니다. 예: “이 건은 ___ 팀이 담당이라, 제가 연결해 드리겠습니다.”",
+      "sampleAnswerEn": "Instead of saying it directly, I guide them to the owner: “This is handled by the ___ team, so I can connect you.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0164",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "동료에게 부탁할 때 부담 주지 않는 표현은 무엇인가요?",
+    "tts": "동료에게 부탁할 때 부담 주지 않는 표현은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "“가능하실 때 부탁드려도 될까요?” “바쁘시면 제가 다른 방법을 찾겠습니다.”처럼 말합니다.",
+      "sampleAnswerEn": "I say, “Could you help when you have time?” and “If you’re busy, I’ll find another way.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0165",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "업무 지시가 너무 많을 때 어떻게 말하나요?",
+    "tts": "업무 지시가 너무 많을 때 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "현재 진행 중인 업무와 마감을 공유합니다. “지금 ___가 우선인데, ___를 먼저 할까요?”처럼 조율합니다.",
+      "sampleAnswerEn": "I share my current tasks and deadlines: “Right now ___ is priority—should I do ___ first?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0166",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "업무 중 ‘제가 놓쳤습니다’는 어떻게 자연스럽게 말하나요?",
+    "tts": "업무 중 제가 놓쳤습니다는 어떻게 자연스럽게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“제가 확인을 놓쳤습니다. 죄송합니다. 바로 수정하겠습니다.”처럼 말합니다.",
+      "sampleAnswerEn": "I say, “I missed that. I’m sorry. I’ll fix it right away.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0167",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "동료가 계속 같은 질문을 하면 어떻게 하나요?",
+    "tts": "동료가 계속 같은 질문을 하면 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "답을 주고 끝내지 않고, 문서/가이드를 만들어 공유합니다. 다음에는 스스로 해결할 수 있게 돕습니다.",
+      "sampleAnswerEn": "I don’t just answer; I create and share a guide/document so they can solve it themselves next time.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0168",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "상대가 제안에 ‘아니요’라고 하면 어떻게 대응하나요?",
+    "tts": "상대가 제안에 아니요라고 하면 어떻게 대응하나요?",
+    "extra": {
+      "sampleAnswerKo": "이유를 먼저 확인합니다. 그 다음 대안을 제시하거나, 다음 단계로 무엇을 할지 합의합니다.",
+      "sampleAnswerEn": "I ask for the reason first. Then I propose alternatives or align on the next step.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0169",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "업무 중 ‘지금은 어렵습니다’는 어떻게 말하나요?",
+    "tts": "업무 중 지금은 어렵습니다는 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“지금은 ___ 때문에 어렵습니다. ___까지는 가능할 것 같습니다.”처럼 이유+가능 범위를 말합니다.",
+      "sampleAnswerEn": "I say, “It’s difficult right now because ___. But I can do ___ by ___.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+  {
+    "id": "wk0170",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "teamwork",
+    "prompt": "팀워크에서 가장 중요하다고 생각하는 한 가지는 무엇인가요?",
+    "tts": "팀워크에서 가장 중요하다고 생각하는 한 가지는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "저는 ‘공유’가 가장 중요하다고 생각합니다. 진행 상황과 이슈를 공유하면 오해와 리스크를 줄일 수 있습니다.",
+      "sampleAnswerEn": "I think ‘sharing’ is most important. Sharing progress and issues reduces misunderstandings and risks.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["teamwork", "level1"]
+  },
+
+  {
+    "id": "wk0171",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 루틴(하루 흐름)을 간단히 말해 주세요.",
+    "tts": "업무 루틴을 간단히 말해 주세요.",
+    "extra": {
+      "sampleAnswerKo": "아침에 우선순위를 정리하고, 중요한 업무부터 처리합니다. 중간에 진행 상황을 공유하고, 마감 전에 결과물을 점검합니다.",
+      "sampleAnswerEn": "In the morning I set priorities and handle key tasks first. I share updates during the day and review outputs before deadlines.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0172",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 중 집중이 안 될 때 어떻게 하나요?",
+    "tts": "업무 중 집중이 안 될 때 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "할 일을 더 작게 나누고 25분 단위로 집중합니다. 방해 요소를 줄이고, 꼭 필요한 것부터 처리합니다.",
+      "sampleAnswerEn": "I break tasks down and focus in 25-minute blocks. I reduce distractions and tackle essentials first.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0173",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 중 멀티태스킹은 잘하나요?",
+    "tts": "업무 중 멀티태스킹은 잘하나요?",
+    "extra": {
+      "sampleAnswerKo": "가능하지만, 중요한 일은 한 번에 하나씩 처리하려고 합니다. 동시에 진행이 필요하면 우선순위를 명확히 합니다.",
+      "sampleAnswerEn": "I can, but I prefer to handle important tasks one at a time. If parallel work is needed, I clarify priorities.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0174",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무를 시작하기 전에 요구사항을 어떻게 확인하나요?",
+    "tts": "업무를 시작하기 전에 요구사항을 어떻게 확인하나요?",
+    "extra": {
+      "sampleAnswerKo": "목표, 완료 기준, 마감, 담당자를 확인합니다. 애매한 부분은 예시를 요청해서 확실히 합니다.",
+      "sampleAnswerEn": "I confirm goal, definition of done, deadline, and owner. If unclear, I ask for examples to be sure.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0175",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 보고를 할 때 어떤 구조로 말하나요?",
+    "tts": "업무 보고를 할 때 어떤 구조로 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "결론→진행 상황→이슈→다음 액션 순서로 말합니다. 짧고 명확하게 말하려고 합니다.",
+      "sampleAnswerEn": "I report in this order: conclusion, progress, issues, next actions. I keep it short and clear.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0176",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 중 스트레스를 받을 때 어떻게 관리하나요?",
+    "tts": "업무 중 스트레스를 받을 때 어떻게 관리하나요?",
+    "extra": {
+      "sampleAnswerKo": "해야 할 일을 정리해서 불확실성을 줄입니다. 그리고 짧게 휴식하고 다시 우선순위를 잡습니다.",
+      "sampleAnswerEn": "I reduce uncertainty by organizing tasks. Then I take a short break and re-prioritize.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0177",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무가 너무 많을 때 가장 먼저 무엇을 하나요?",
+    "tts": "업무가 너무 많을 때 가장 먼저 무엇을 하나요?",
+    "extra": {
+      "sampleAnswerKo": "우선순위를 정하고 마감이 빠른 것부터 정리합니다. 필요하면 상사/팀과 범위를 조정합니다.",
+      "sampleAnswerEn": "I prioritize and sort by deadlines first. If needed, I align with my manager/team to adjust scope.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0178",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 결과물의 품질을 어떻게 확인하나요?",
+    "tts": "업무 결과물의 품질을 어떻게 확인하나요?",
+    "extra": {
+      "sampleAnswerKo": "체크리스트로 기본을 확인하고, 중요한 부분은 다시 검토합니다. 가능하면 동료 리뷰도 요청합니다.",
+      "sampleAnswerEn": "I check basics with a checklist and re-review critical parts. If possible, I request a peer review too.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0179",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "업무 성과를 어떻게 측정하나요?",
+    "tts": "업무 성과를 어떻게 측정하나요?",
+    "extra": {
+      "sampleAnswerKo": "마감 준수, 품질, 그리고 영향(시간 절약/오류 감소/만족도)을 봅니다. 가능한 경우 숫자로 정리합니다.",
+      "sampleAnswerEn": "I measure by meeting deadlines, quality, and impact (time saved, fewer errors, satisfaction). When possible, I summarize with numbers.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+  {
+    "id": "wk0180",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "workstyle",
+    "prompt": "본인의 강점을 한 문장으로 말해 주세요.",
+    "tts": "본인의 강점을 한 문장으로 말해 주세요.",
+    "extra": {
+      "sampleAnswerKo": "저는 복잡한 문제를 정리해서 실행 가능한 단계로 만드는 능력이 강점입니다.",
+      "sampleAnswerEn": "My strength is turning complex problems into clear, actionable steps.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["workstyle", "level1"]
+  },
+
+  {
+    "id": "wk0181",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "존댓말이 어려울 때 어떻게 말하나요?",
+    "tts": "존댓말이 어려울 때 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "기본 템플릿을 사용합니다. 예: “확인 부탁드립니다”, “공유드립니다”, “가능하실까요?” 같은 표현을 자주 씁니다.",
+      "sampleAnswerEn": "I use basic templates like “Please review,” “Sharing this,” and “Would it be possible?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0182",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "한국 직장에서 ‘보고’ 문화는 어떻게 이해하고 있나요?",
+    "tts": "한국 직장에서 보고 문화는 어떻게 이해하고 있나요?",
+    "extra": {
+      "sampleAnswerKo": "중간 공유를 자주 해서 리스크를 줄이는 문화라고 이해합니다. 그래서 진행 상황과 이슈를 빠르게 공유하려고 합니다.",
+      "sampleAnswerEn": "I understand it as frequent updates to reduce risk. So I try to share progress and issues quickly.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0183",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "상대가 연장자일 때 말투는 어떻게 조심하나요?",
+    "tts": "상대가 연장자일 때 말투는 어떻게 조심하나요?",
+    "extra": {
+      "sampleAnswerKo": "짧게 말하기보다 “~하겠습니다”, “~부탁드립니다”처럼 정중한 종결을 사용합니다. 필요하면 한 번 더 확인합니다.",
+      "sampleAnswerEn": "I use polite endings like “I will” and “please,” and I confirm once more if needed.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0184",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "업무 중 ‘알겠습니다’만 계속 말하면 어색할 때 어떻게 하나요?",
+    "tts": "업무 중 알겠습니다만 계속 말하면 어색할 때 어떻게 하나요?",
+    "extra": {
+      "sampleAnswerKo": "다양한 표현을 씁니다. 예: “네, 확인하겠습니다”, “네, 반영하겠습니다”, “네, 정리해서 공유드리겠습니다.”",
+      "sampleAnswerEn": "I vary expressions: “I’ll check,” “I’ll apply it,” “I’ll summarize and share.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0185",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "상대가 간접적으로 말할 때(돌려 말할 때) 어떻게 이해하나요?",
+    "tts": "상대가 돌려 말할 때 어떻게 이해하나요?",
+    "extra": {
+      "sampleAnswerKo": "핵심 의도가 무엇인지 확인 질문을 합니다. 예: “정리하면 ___를 원하시는 걸까요?”라고 묻습니다.",
+      "sampleAnswerEn": "I ask a clarifying question about the intention: “To confirm, do you want ___?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0186",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "업무에서 ‘눈치’ 대신 확실히 확인하는 방법은 무엇인가요?",
+    "tts": "업무에서 눈치 대신 확실히 확인하는 방법은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "요청 내용을 요약해서 확인합니다. “제가 이해한 내용은 ___입니다. 맞나요?”처럼 말합니다.",
+      "sampleAnswerEn": "I summarize and confirm: “My understanding is ___. Is that correct?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0187",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "업무에서 ‘죄송합니다’와 ‘감사합니다’를 적절히 쓰는 이유는 무엇인가요?",
+    "tts": "업무에서 죄송합니다와 감사합니다를 적절히 쓰는 이유는 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "상대의 시간과 노력을 존중하기 때문입니다. 관계를 좋게 하고 협업을 원활하게 만듭니다.",
+      "sampleAnswerEn": "Because it shows respect for the other person’s time and effort. It improves relationships and collaboration.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0188",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "상사가 지적했을 때 어떻게 반응하나요?",
+    "tts": "상사가 지적했을 때 어떻게 반응하나요?",
+    "extra": {
+      "sampleAnswerKo": "먼저 내용을 정확히 이해하고, 필요한 수정 방향을 확인합니다. 그리고 “수정해서 다시 공유드리겠습니다”라고 말합니다.",
+      "sampleAnswerEn": "I understand the point clearly, confirm the expected fix, and say, “I’ll revise and share again.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0189",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "회의에서 말이 적은 편이면 어떻게 보완하나요?",
+    "tts": "회의에서 말이 적은 편이면 어떻게 보완하나요?",
+    "extra": {
+      "sampleAnswerKo": "미리 아젠다를 보고 질문/의견을 준비합니다. 말이 어려우면 회의 후 메시지로 정리해서 공유합니다.",
+      "sampleAnswerEn": "I prepare questions/opinions by reviewing the agenda. If speaking is hard, I send a follow-up summary after the meeting.",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+  {
+    "id": "wk0190",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "culture",
+    "prompt": "업무에서 예의 바르게 반대 의견을 말하는 문장은 무엇인가요?",
+    "tts": "업무에서 예의 바르게 반대 의견을 말하는 문장은 무엇인가요?",
+    "extra": {
+      "sampleAnswerKo": "예: “그 의견도 이해합니다. 다만 ___ 리스크가 있어서 다른 방법을 제안드립니다.”",
+      "sampleAnswerEn": "For example: “I understand that point. However, there is a risk of ___, so I’d like to suggest another approach.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["culture", "level1"]
+  },
+
+  {
+    "id": "wk0191",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "상대에게 파일을 보냈는데 확인했는지 물어볼 때 어떻게 말하나요?",
+    "tts": "상대에게 파일을 보냈는데 확인했는지 물어볼 때 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“보내드린 자료 확인 가능하실까요?” 또는 “확인하시면 피드백 부탁드립니다.”라고 말합니다.",
+      "sampleAnswerEn": "I say, “Could you check the document I sent?” or “After reviewing, please share your feedback.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0192",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무 중 ‘잠깐 통화 가능하실까요?’는 어떻게 말하나요?",
+    "tts": "업무 중 잠깐 통화 가능하실까요는 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“잠깐 통화 가능하실까요? 2~3분이면 됩니다.”라고 말합니다.",
+      "sampleAnswerEn": "I say, “Could we have a quick call? It will take 2–3 minutes.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0193",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 ‘제가 다시 확인하고 연락드리겠습니다’는 어떻게 쓰나요?",
+    "tts": "업무에서 제가 다시 확인하고 연락드리겠습니다는 어떻게 쓰나요?",
+    "extra": {
+      "sampleAnswerKo": "“제가 다시 확인한 후에 연락드리겠습니다.” 또는 “확인 후 업데이트 드리겠습니다.”라고 말합니다.",
+      "sampleAnswerEn": "I say, “I’ll confirm again and get back to you,” or “I’ll update you after checking.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0194",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 일정이 늦어질 때 어떻게 먼저 말하나요?",
+    "tts": "업무에서 일정이 늦어질 때 어떻게 먼저 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“현재 ___ 이슈로 일정이 지연될 것 같습니다. ___까지 완료 목표로 진행하겠습니다.”라고 말합니다.",
+      "sampleAnswerEn": "I say, “Due to ___, the schedule may be delayed. I’ll aim to complete it by ___.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0195",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 ‘오늘 중으로 가능할까요?’는 어떻게 말하나요?",
+    "tts": "업무에서 오늘 중으로 가능할까요는 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“오늘 중으로 가능하실까요?” 또는 “가능하시면 오늘까지 부탁드립니다.”라고 말합니다.",
+      "sampleAnswerEn": "I say, “Would it be possible by today?” or “If possible, please by end of today.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0196",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 ‘지금 어디까지 됐나요?’라고 물어볼 때 예의 있게 말하는 방법은?",
+    "tts": "업무에서 진행 상황을 예의 있게 물어보는 방법은?",
+    "extra": {
+      "sampleAnswerKo": "“진행 상황 공유 가능하실까요?” 또는 “현재 상태를 간단히 알려주실 수 있을까요?”라고 말합니다.",
+      "sampleAnswerEn": "I ask, “Could you share the status?” or “Could you briefly update me on the current state?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0197",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 ‘제가 이해한 게 맞나요?’는 어떻게 말하나요?",
+    "tts": "업무에서 제가 이해한 게 맞나요는 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“제가 이해한 내용이 맞는지 확인 부탁드립니다. ___가 맞을까요?”라고 말합니다.",
+      "sampleAnswerEn": "I say, “Please confirm if my understanding is correct. Is it ___?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0198",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 ‘가능하면’ ‘되도록이면’ 같은 표현은 어떻게 쓰나요?",
+    "tts": "업무에서 가능하면 되도록이면 같은 표현은 어떻게 쓰나요?",
+    "extra": {
+      "sampleAnswerKo": "“가능하면 ___ 부탁드립니다”, “되도록이면 ___로 진행하겠습니다”처럼 완충 표현으로 씁니다.",
+      "sampleAnswerEn": "I use softeners: “If possible, please ___,” and “If possible, I’ll proceed with ___.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0199",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 ‘제가 맡아도 될까요?’는 어떻게 말하나요?",
+    "tts": "업무에서 제가 맡아도 될까요는 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“제가 이 업무 맡아도 될까요?” 또는 “제가 담당해서 진행해도 괜찮을까요?”라고 말합니다.",
+      "sampleAnswerEn": "I say, “May I take this task?” or “Would it be okay if I handle this?”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  },
+  {
+    "id": "wk0200",
+    "mode": "work",
+    "type": "interview_card",
+    "level": 1,
+    "module": "practical",
+    "prompt": "업무에서 ‘도움 주셔서 감사합니다’는 더 자연스럽게 어떻게 말하나요?",
+    "tts": "업무에서 도움 주셔서 감사합니다는 더 자연스럽게 어떻게 말하나요?",
+    "extra": {
+      "sampleAnswerKo": "“도와주셔서 감사합니다. 덕분에 빠르게 진행할 수 있었습니다.”라고 말합니다.",
+      "sampleAnswerEn": "I say, “Thank you for your help. Thanks to you, I could move forward quickly.”",
+      "keyPhrases": ["저는 ___입니다", "경험이 있습니다", "강점은 ___입니다", "그래서 ___했습니다", "결과는 ___였습니다"]
+    },
+    "tags": ["practical", "level1"]
+  }
+  ]
