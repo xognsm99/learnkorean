@@ -1,6 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
+import { useParams } from "next/navigation";
 import {
   emojiVocabData,
   jamoQuizData,
@@ -32,6 +34,8 @@ function saveSession(payload: LastSession) {
 type Screen = "menu" | "play";
 
 export default function LearnHub() {
+  const params = useParams();
+  const locale = (params?.locale as string) || "en";
   const [screen, setScreen] = useState<Screen>("menu");
   const [mode, setMode] = useState<LearnMode>("jamo");
 
@@ -99,6 +103,55 @@ export default function LearnHub() {
                 setScreen("play");
               }}
             />
+
+            {/* Scene Practice - Link to separate page */}
+            <Link href={`/${locale}/korean-work/learn/scene`} className="block">
+              <div
+                className={`
+                  group w-full text-left
+                  rounded-3xl p-5
+                  bg-gradient-to-br from-emerald-500/20 to-teal-500/20
+                  backdrop-blur-xl
+                  border border-white/60
+                  shadow-lg shadow-slate-900/5
+                  hover:shadow-2xl hover:shadow-slate-900/10
+                  hover:scale-[1.02] hover:border-white/80
+                  active:scale-[0.98]
+                  transition-all duration-300 ease-out
+                `}
+              >
+                <div className="flex items-center gap-4">
+                  <div
+                    className={`
+                      flex h-14 w-14 items-center justify-center
+                      rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600
+                      text-2xl text-white font-bold
+                      shadow-lg
+                      group-hover:scale-110 group-hover:rotate-3
+                      transition-transform duration-300
+                    `}
+                  >
+                    🎬
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-lg font-semibold text-slate-900 group-hover:text-slate-800">
+                      Scene Practice
+                    </div>
+                    <div className="mt-0.5 text-sm text-slate-600">
+                      Practice Korean in real situations
+                    </div>
+                  </div>
+                  <svg
+                    className="w-5 h-5 text-slate-400 group-hover:text-slate-600 group-hover:translate-x-1 transition-all duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </div>
+            </Link>
           </div>
 
           {/* Footer Note */}
