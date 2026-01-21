@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabaseClient";
 
@@ -16,7 +16,21 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 // Extract answer INDEX for mcq/dialog (jsonb can be number, string, array, object)
-function extractAnswerIndex(answer: unknown): number | null {
+// Note: answer_index from DB is 1-based, convert to 0-based for array access
+function extractAnswerIndex(answer: unknown, choices?: unknown): number | null {
+  // First check if choices object contains answer_index (nested structure)
+  if (choices && typeof choices === "object" && !Array.isArray(choices)) {
+    const choicesObj = choices as Record<string, unknown>;
+    if ("answer_index" in choicesObj) {
+      const idx = extractAnswerIndex(choicesObj.answer_index);
+      // Convert 1-based to 0-based if it looks like 1-based (1-4 range)
+      if (idx !== null && idx >= 1 && idx <= 4) {
+        return idx - 1;
+      }
+      return idx;
+    }
+  }
+
   if (typeof answer === "number") {
     return answer;
   }
@@ -32,6 +46,14 @@ function extractAnswerIndex(answer: unknown): number | null {
     // Try various keys
     if ("index" in obj) return extractAnswerIndex(obj.index);
     if ("answerIndex" in obj) return extractAnswerIndex(obj.answerIndex);
+    if ("answer_index" in obj) {
+      const idx = extractAnswerIndex(obj.answer_index);
+      // Convert 1-based to 0-based
+      if (idx !== null && idx >= 1 && idx <= 4) {
+        return idx - 1;
+      }
+      return idx;
+    }
     if ("value" in obj) return extractAnswerIndex(obj.value);
     if ("answer" in obj) return extractAnswerIndex(obj.answer);
   }
@@ -89,6 +111,15 @@ function extractAnswerString(answer: unknown): string {
 // Safely extract choices array
 function extractChoices(choices: unknown): string[] {
   if (!choices) return [];
+
+  // Handle nested structure: { choices: [...], answer_index: N, ... }
+  if (choices && typeof choices === "object" && !Array.isArray(choices)) {
+    const obj = choices as Record<string, unknown>;
+    if ("choices" in obj && Array.isArray(obj.choices)) {
+      return extractChoices(obj.choices);
+    }
+  }
+
   if (Array.isArray(choices)) {
     return choices.map((c) => {
       if (typeof c === "string") return c;
@@ -103,6 +134,18 @@ function extractChoices(choices: unknown): string[] {
     });
   }
   return [];
+}
+
+// Extract utterance (situation/context) from nested choices object
+function extractUtterance(choices: unknown): string | null {
+  if (choices && typeof choices === "object" && !Array.isArray(choices)) {
+    const obj = choices as Record<string, unknown>;
+    if ("utterance" in obj && typeof obj.utterance === "string" && obj.utterance) {
+      // Convert escaped newlines back to actual newlines
+      return obj.utterance.replace(/\\n/g, "\n");
+    }
+  }
+  return null;
 }
 
 export type TopicItem = {
@@ -154,7 +197,7 @@ function processItems(items: TopicItem[]): ProcessedItem[] {
     // Only shuffle for mcq/dialog types
     if (itemType === "mcq" || itemType === "dialog") {
       const choices = extractChoices(item.choices);
-      const originalCorrectIndex = extractAnswerIndex(item.answer);
+      const originalCorrectIndex = extractAnswerIndex(item.answer, item.choices);
 
       if (choices.length > 0 && originalCorrectIndex !== null && originalCorrectIndex >= 0 && originalCorrectIndex < choices.length) {
         const { shuffledChoices, newCorrectIndex } = shuffleMcqChoices(choices, originalCorrectIndex);
@@ -177,8 +220,8 @@ export default function ScenePracticeClient({
   locale,
   group,
 }: Props) {
-  // Process items once with shuffled choices (useState initializer runs only once)
-  const [sessionItems] = useState<ProcessedItem[]>(() => processItems(initialItems));
+  // Hydration fix: Don't shuffle on server, only on client
+  const [sessionItems, setSessionItems] = useState<ProcessedItem[]>(initialItems);
   const [idx, setIdx] = useState(0);
   // For mcq/dialog: store selected INDEX
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
@@ -188,6 +231,11 @@ export default function ScenePracticeClient({
   const [submitted, setSubmitted] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [buildWords, setBuildWords] = useState<string[]>([]);
+
+  // Process items (shuffle) only on client to avoid hydration mismatch
+  useEffect(() => {
+    setSessionItems(processItems(initialItems));
+  }, [initialItems]);
 
   const currentItem = sessionItems[idx];
   const isFinished = idx >= sessionItems.length;
@@ -216,7 +264,7 @@ export default function ScenePracticeClient({
     if (currentItem?.shuffledCorrectIndex !== undefined) {
       return currentItem.shuffledCorrectIndex;
     }
-    return extractAnswerIndex(currentItem?.answer);
+    return extractAnswerIndex(currentItem?.answer, currentItem?.choices);
   }, [currentItem, itemType]);
 
   // For fill/build: get correct answer STRING
@@ -227,8 +275,9 @@ export default function ScenePracticeClient({
 
   // Check if choices are valid for mcq/dialog
   const hasValidChoices = useMemo(() => {
-    return Array.isArray(currentItem?.choices) && currentChoices.length > 0;
-  }, [currentItem, currentChoices]);
+    // currentChoices is already extracted (handles both array and nested object structure)
+    return currentChoices.length > 0;
+  }, [currentChoices]);
 
   // Check if correctIndex is valid
   const hasValidCorrectIndex = useMemo(() => {
@@ -333,6 +382,28 @@ export default function ScenePracticeClient({
     ? `/${locale}/korean-work/learn/scene/${group}`
     : `/${locale}/korean-work/learn/scene`;
 
+  // Check if we can submit - moved before early returns to avoid hook order issues
+  const canSubmit = useMemo(() => {
+    if (itemType === "mcq" || itemType === "dialog") {
+      return selectedIndex !== null;
+    }
+    if (itemType === "fill") {
+      return inputValue.trim().length > 0;
+    }
+    if (itemType === "build") {
+      return buildWords.length > 0;
+    }
+    return true;
+  }, [itemType, selectedIndex, inputValue, buildWords]);
+
+  // Get correct answer text for display (mcq/dialog) - moved before early returns
+  const correctAnswerText = useMemo(() => {
+    if ((itemType === "mcq" || itemType === "dialog") && correctIndex !== null && currentChoices[correctIndex]) {
+      return currentChoices[correctIndex];
+    }
+    return correctAnswerString;
+  }, [itemType, correctIndex, currentChoices, correctAnswerString]);
+
   // Render result screen
   if (isFinished && total > 0) {
     const percentage = Math.round((score / total) * 100);
@@ -434,28 +505,6 @@ export default function ScenePracticeClient({
     );
   }
 
-  // Check if we can submit
-  const canSubmit = (() => {
-    if (itemType === "mcq" || itemType === "dialog") {
-      return selectedIndex !== null;
-    }
-    if (itemType === "fill") {
-      return inputValue.trim().length > 0;
-    }
-    if (itemType === "build") {
-      return buildWords.length > 0;
-    }
-    return true;
-  })();
-
-  // Get correct answer text for display (mcq/dialog)
-  const correctAnswerText = useMemo(() => {
-    if ((itemType === "mcq" || itemType === "dialog") && correctIndex !== null && currentChoices[correctIndex]) {
-      return currentChoices[correctIndex];
-    }
-    return correctAnswerString;
-  }, [itemType, correctIndex, currentChoices, correctAnswerString]);
-
   return (
     <div className="min-h-[calc(100vh-64px)] px-4 py-8">
       <div className="mx-auto w-full max-w-2xl">
@@ -541,6 +590,15 @@ export default function ScenePracticeClient({
                     : "Dialog"}
             </span>
           </div>
+
+          {/* Utterance (situation/context) - Dialog or scene context */}
+          {extractUtterance(currentItem.choices) && (
+            <div className="mb-4 p-4 rounded-xl bg-slate-100 border border-slate-200">
+              <p className="text-lg text-slate-700 whitespace-pre-line">
+                {extractUtterance(currentItem.choices)}
+              </p>
+            </div>
+          )}
 
           {/* Prompt (situation) - Main Korean question, larger and bolder */}
           {currentItem.prompt && (
