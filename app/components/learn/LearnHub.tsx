@@ -11,8 +11,10 @@ import {
 import JamoMode from "@/app/components/learn/modes/JamoMode";
 import EmojiVocabMode from "@/app/components/learn/modes/EmojiVocabMode";
 import InterviewMode from "@/app/components/learn/modes/InterviewMode";
+import KoreanQuizMode from "@/app/components/learn/modes/KoreanQuizMode";
+import ImageQuizMode from "@/app/components/learn/modes/ImageQuizMode";
 
-export type LearnMode = "jamo" | "emoji" | "interview";
+export type LearnMode = "jamo" | "emoji" | "interview" | "korean" | "image";
 
 export type LastSession = {
   lastMode: LearnMode;
@@ -42,12 +44,16 @@ export default function LearnHub() {
   const headerTitle = useMemo(() => {
     if (mode === "jamo") return "Jamo Quiz";
     if (mode === "emoji") return "Emoji Vocab";
+    if (mode === "korean") return "Korean Quiz";
+    if (mode === "image") return "Image Quiz";
     return "Interview Cards";
   }, [mode]);
 
   const headerDesc = useMemo(() => {
     if (mode === "jamo") return "Learn Korean consonants & vowels";
     if (mode === "emoji") return "Build vocabulary with emojis";
+    if (mode === "korean") return "Test your Korean knowledge";
+    if (mode === "image") return "Visual learning with real images";
     return "Practice job interview questions";
   }, [mode]);
 
@@ -100,6 +106,30 @@ export default function LearnHub() {
               iconBg="bg-gradient-to-br from-sky-500 to-blue-600"
               onClick={() => {
                 setMode("interview");
+                setScreen("play");
+              }}
+            />
+
+            <ModeCard
+              title="Korean Quiz"
+              desc="Test your Korean culture knowledge"
+              icon="🇰🇷"
+              gradient="from-rose-500/20 to-pink-500/20"
+              iconBg="bg-gradient-to-br from-rose-500 to-pink-600"
+              onClick={() => {
+                setMode("korean");
+                setScreen("play");
+              }}
+            />
+
+            <ModeCard
+              title="Image Quiz"
+              desc="Learn Korean with real images"
+              icon="🖼️"
+              gradient="from-cyan-500/20 to-teal-500/20"
+              iconBg="bg-gradient-to-br from-cyan-500 to-teal-600"
+              onClick={() => {
+                setMode("image");
                 setScreen("play");
               }}
             />
@@ -240,6 +270,32 @@ export default function LearnHub() {
               onSession={(correct, wrong) =>
                 saveSession({
                   lastMode: "interview",
+                  correct,
+                  wrong,
+                  updatedAt: new Date().toISOString(),
+                })
+              }
+            />
+          )}
+
+          {mode === "korean" && (
+            <KoreanQuizMode
+              onSession={(correct, wrong) =>
+                saveSession({
+                  lastMode: "korean",
+                  correct,
+                  wrong,
+                  updatedAt: new Date().toISOString(),
+                })
+              }
+            />
+          )}
+
+          {mode === "image" && (
+            <ImageQuizMode
+              onSession={(correct, wrong) =>
+                saveSession({
+                  lastMode: "image",
                   correct,
                   wrong,
                   updatedAt: new Date().toISOString(),

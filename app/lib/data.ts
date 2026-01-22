@@ -76,9 +76,48 @@ export const jamoQuiz = jamoQuizData;
 export const emojiVocab = emojiVocabData;
 export const workInterview = workInterviewData;
 
+// Korean Quiz Types (Supabase)
+export type KoreanQuizItem = {
+  id: number;
+  number: number;
+  question: string;
+  question_en?: string; // English translation of question
+  option1: string;
+  option2: string;
+  option3: string;
+  option4: string;
+  answer_index: number; // 1-based (1, 2, 3, 4)
+  rationale: string;
+  hint: string;
+};
+
+// Image Quiz Types (Supabase)
+export type ImageQuizCategory =
+  | "street"      // 🏁 Street Survival
+  | "food"        // 🍱 K-Food Master
+  | "convenience" // 🏪 Convenience Store
+  | "history"     // 🏰 Time Travel
+  | "kpop";       // 🎤 K-Vibe
+
+export type ImageQuizItem = {
+  id: number;
+  category: ImageQuizCategory;
+  image_url: string;
+  question: string;
+  question_en?: string;
+  option1: string;
+  option2: string;
+  option3: string;
+  option4: string;
+  answer_index: number; // 1-based (1, 2, 3, 4)
+  rationale: string;
+  rationale_en?: string;
+  hint?: string;
+};
+
 // Session Result Types (review 페이지용)
 export type SessionResult = {
-  lastMode: "jamo" | "emoji" | "interview";
+  lastMode: "jamo" | "emoji" | "interview" | "korean" | "image";
   correct: number;
   wrong: number;
   updatedAt: string;
