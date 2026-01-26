@@ -20,7 +20,12 @@
       { "glyph": "ㅋ", "name": "키읔", "en": "kieuk" },
       { "glyph": "ㅌ", "name": "티읕", "en": "tieut" },
       { "glyph": "ㅍ", "name": "피읖", "en": "pieup" },
-      { "glyph": "ㅎ", "name": "히읗", "en": "hieut" }
+      { "glyph": "ㅎ", "name": "히읗", "en": "hieut" },
+      { "glyph": "ㄲ", "name": "쌍기역", "en": "ssang-giyeok" },
+      { "glyph": "ㄸ", "name": "쌍디귿", "en": "ssang-digeut" },
+      { "glyph": "ㅃ", "name": "쌍비읍", "en": "ssang-bieup" },
+      { "glyph": "ㅆ", "name": "쌍시옷", "en": "ssang-siot" },
+      { "glyph": "ㅉ", "name": "쌍지읒", "en": "ssang-jieut" }
     ],
     "vowel": [
       { "glyph": "ㅏ", "name": "아", "en": "a" },
@@ -50,6 +55,11 @@
     { "id": "jm_c_12", "pool": "consonant", "glyph": "ㅌ", "answer": "티읕" },
     { "id": "jm_c_13", "pool": "consonant", "glyph": "ㅍ", "answer": "피읖" },
     { "id": "jm_c_14", "pool": "consonant", "glyph": "ㅎ", "answer": "히읗" },
+    { "id": "jm_c_15", "pool": "consonant", "glyph": "ㄲ", "answer": "쌍기역" },
+    { "id": "jm_c_16", "pool": "consonant", "glyph": "ㄸ", "answer": "쌍디귿" },
+    { "id": "jm_c_17", "pool": "consonant", "glyph": "ㅃ", "answer": "쌍비읍" },
+    { "id": "jm_c_18", "pool": "consonant", "glyph": "ㅆ", "answer": "쌍시옷" },
+    { "id": "jm_c_19", "pool": "consonant", "glyph": "ㅉ", "answer": "쌍지읒" },
 
     { "id": "jm_v_01", "pool": "vowel", "glyph": "ㅏ", "answer": "아" },
     { "id": "jm_v_02", "pool": "vowel", "glyph": "ㅑ", "answer": "야" },

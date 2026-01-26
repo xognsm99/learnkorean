@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import type { EmojiVocabItem } from "@/app/lib/data";
+import { speakKoreanWord, stopKoreanSpeech } from "@/app/lib/tts/koreanTts";
 
 // Extended type for anthem items
 interface AnthemEmojiItem extends EmojiVocabItem {
@@ -108,6 +109,9 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
   const [correct, setCorrect] = useState(0);
   const [wrong, setWrong] = useState(0);
 
+  // TTS state
+  const [ttsRepeat, setTtsRepeat] = useState<1 | 3>(1);
+
   const currentIndex = order[pos];
   // Level 3는 anthemOrderedItems, 그 외는 levelItems
   const currentItems = level === 3 ? anthemOrderedItems : levelItems;
@@ -138,11 +142,13 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
   }
 
   function next() {
+    stopKoreanSpeech();
     setPickedId(null);
     setPos((v) => v + 1);
   }
 
   function restart() {
+    stopKoreanSpeech();
     setPos(0);
     setPickedId(null);
     setCorrect(0);
@@ -153,6 +159,7 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
   // ✅ 레벨 바꾸기 (잠금이면 무시) + 진행 초기화
   function changeLevel(nextLv: Level) {
     if (nextLv > unlocked) return;
+    stopKoreanSpeech();
     setLevel(nextLv);
     restart();
   }
@@ -243,9 +250,9 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
               onClick={restart}
               className="
                 py-3 px-8 rounded-2xl
-                bg-gradient-to-r from-amber-500 to-orange-500
+                bg-gradient-to-r from-violet-500 to-purple-600
                 text-white font-semibold
-                shadow-lg shadow-amber-500/25
+                shadow-lg shadow-violet-500/25
                 hover:shadow-xl hover:scale-[1.02]
                 active:scale-[0.98]
                 transition-all duration-300
@@ -262,7 +269,7 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
               className={[
                 "py-3 px-8 rounded-2xl font-semibold transition-all duration-300",
                 canGoNext
-                  ? "bg-slate-900 text-white hover:bg-slate-800"
+                  ? "bg-white/60 backdrop-blur border-2 border-violet-300 text-violet-700 hover:bg-violet-50 hover:border-violet-400"
                   : "bg-slate-200 text-slate-400 cursor-not-allowed",
               ].join(" ")}
             >
@@ -295,7 +302,7 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
         </div>
         <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
           <div
-            className="h-full bg-gradient-to-r from-amber-500 to-orange-500 transition-all duration-300"
+            className="h-full bg-gradient-to-r from-violet-500 to-purple-600 transition-all duration-300"
             style={{ width: `${progress}%` }}
           />
         </div>
@@ -304,7 +311,7 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
       {/* Quiz Card */}
       <div className="text-center py-6">
         {/* Category badge */}
-        <span className="inline-block px-3 py-1 rounded-full bg-amber-50 text-amber-700 text-sm font-medium mb-4 border border-amber-200">
+        <span className="inline-block px-3 py-1 rounded-full bg-violet-50 text-violet-700 text-sm font-medium mb-4 border border-violet-200">
           {isAnthemLevel
             ? `애국가 ${currentAnthem.verse === 0 ? "후렴" : currentAnthem.verse + "절"}`
             : `${current.category} · Lv.${level}`}
@@ -381,7 +388,7 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
               }
             } else {
               buttonClass +=
-                " bg-white border-slate-200 text-slate-900 hover:border-amber-400 hover:bg-amber-50";
+                " bg-white border-slate-200 text-slate-900 hover:border-violet-400 hover:bg-violet-50";
             }
 
             return (
@@ -407,24 +414,83 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
             ${isCorrectAnswer ? "bg-emerald-50" : "bg-rose-50"}
           `}
         >
-          <div className="flex items-center justify-between">
-            <div>
-              <p className={`font-semibold ${isCorrectAnswer ? "text-emerald-700" : "text-rose-700"}`}>
-                {isCorrectAnswer ? "Correct! 🎉" : `Wrong! Answer: ${current.ko}`}
-              </p>
-              <p className="text-sm text-slate-500 mt-1">English: {current.en}</p>
+          <p className={`font-semibold ${isCorrectAnswer ? "text-emerald-700" : "text-rose-700"}`}>
+            {isCorrectAnswer ? "Correct! 🎉" : `Wrong! Answer: ${current.ko}`}
+          </p>
+          <p className="text-sm text-slate-500 mt-1">English: {current.en}</p>
+
+          {/* Action buttons - mobile optimized */}
+          <div className="mt-4 flex items-stretch gap-2">
+            {/* TTS Listen Button */}
+            <button
+              type="button"
+              onClick={() => speakKoreanWord(current.ko, ttsRepeat)}
+              className={`
+                flex-1 inline-flex items-center justify-center gap-1
+                py-2.5 px-2 rounded-xl
+                bg-white/80 backdrop-blur
+                font-semibold text-sm
+                active:scale-[0.98]
+                transition-all
+                min-w-0
+                ${isCorrectAnswer
+                  ? "border-2 border-emerald-300 text-emerald-700 hover:bg-emerald-100"
+                  : "border-2 border-rose-300 text-rose-700 hover:bg-rose-100"
+                }
+              `}
+            >
+              <span>🔊</span>
+              <span className="truncate">Listen</span>
+            </button>
+
+            {/* Repeat Toggle */}
+            <div className="flex items-center bg-white/60 backdrop-blur rounded-xl p-1 border border-slate-200 shrink-0">
+              <button
+                type="button"
+                onClick={() => setTtsRepeat(1)}
+                className={`
+                  px-2.5 py-1.5 rounded-lg text-sm font-semibold transition-all
+                  ${ttsRepeat === 1
+                    ? "bg-violet-500 text-white shadow-md"
+                    : "text-slate-600 hover:bg-slate-100"
+                  }
+                `}
+              >
+                1x
+              </button>
+              <button
+                type="button"
+                onClick={() => setTtsRepeat(3)}
+                className={`
+                  px-2.5 py-1.5 rounded-lg text-sm font-semibold transition-all
+                  ${ttsRepeat === 3
+                    ? "bg-violet-500 text-white shadow-md"
+                    : "text-slate-600 hover:bg-slate-100"
+                  }
+                `}
+              >
+                3x
+              </button>
             </div>
+
+            {/* Next Button */}
             <button
               type="button"
               onClick={next}
               className="
-                py-2.5 px-6 rounded-xl
-                bg-slate-900 text-white font-semibold
-                hover:bg-slate-800
-                transition-all duration-200
+                flex-1 inline-flex items-center justify-center gap-1
+                py-2.5 px-2 rounded-xl
+                bg-gradient-to-r from-violet-500 to-purple-600
+                text-white font-semibold text-sm
+                shadow-lg shadow-violet-500/25
+                hover:shadow-xl hover:shadow-violet-500/30
+                active:scale-[0.98]
+                transition-all
+                min-w-0
               "
             >
-              Next
+              <span className="truncate">Next</span>
+              <span>→</span>
             </button>
           </div>
         </div>
@@ -434,7 +500,7 @@ export default function EmojiVocabMode({ items, onSession }: EmojiVocabModeProps
   );
 }
 
-/** ✅ 디자인 최소로 넣은 레벨 바 */
+/** ✅ 디자인 최소로 넣은 레벨 바 (보라색 테마) */
 function LevelBar({
   level,
   unlocked,
@@ -444,7 +510,7 @@ function LevelBar({
   unlocked: 1 | 2 | 3;
   onChange: (lv: 1 | 2 | 3) => void;
 }) {
-  const btnBase = "px-3 py-1.5 rounded-full text-sm font-semibold border transition-all";
+  const btnBase = "px-3 py-1.5 rounded-full text-sm font-semibold border-2 transition-all";
 
   return (
     <div className="flex gap-2 justify-center">
@@ -454,8 +520,8 @@ function LevelBar({
         className={[
           btnBase,
           level === 1
-            ? "bg-slate-900 text-white border-slate-900"
-            : "bg-white text-slate-700 border-slate-200 hover:bg-slate-50",
+            ? "bg-violet-500 text-white border-violet-500 shadow-lg shadow-violet-500/25"
+            : "bg-white text-slate-700 border-slate-200 hover:border-violet-300 hover:bg-violet-50",
         ].join(" ")}
       >
         Lv.1
@@ -470,8 +536,8 @@ function LevelBar({
           unlocked < 2
             ? "bg-slate-100 text-slate-400 border-slate-200 cursor-not-allowed"
             : level === 2
-            ? "bg-slate-900 text-white border-slate-900"
-            : "bg-white text-slate-700 border-slate-200 hover:bg-slate-50",
+            ? "bg-violet-500 text-white border-violet-500 shadow-lg shadow-violet-500/25"
+            : "bg-white text-slate-700 border-slate-200 hover:border-violet-300 hover:bg-violet-50",
         ].join(" ")}
       >
         Lv.2 {unlocked < 2 ? "🔒" : ""}
@@ -486,8 +552,8 @@ function LevelBar({
           unlocked < 3
             ? "bg-slate-100 text-slate-400 border-slate-200 cursor-not-allowed"
             : level === 3
-            ? "bg-slate-900 text-white border-slate-900"
-            : "bg-white text-slate-700 border-slate-200 hover:bg-slate-50",
+            ? "bg-violet-500 text-white border-violet-500 shadow-lg shadow-violet-500/25"
+            : "bg-white text-slate-700 border-slate-200 hover:border-violet-300 hover:bg-violet-50",
         ].join(" ")}
       >
         Lv.3 {unlocked < 3 ? "🔒" : ""}

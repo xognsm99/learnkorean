@@ -9,6 +9,11 @@ import {
   generateLevel2QuizSet,
   generateLevel3QuizSet,
 } from "@/app/lib/jamo";
+import {
+  speakKoreanRepeat,
+  stopKoreanSpeech,
+  getKoreanSpeakText,
+} from "@/app/lib/tts/koreanTts";
 
 interface JamoModeProps {
   data: JamoQuizData;
@@ -17,7 +22,7 @@ interface JamoModeProps {
 
 /** 레벨별 문제 수 */
 const QUIZ_COUNT_PER_LEVEL = {
-  1: 24,
+  1: 29, // 14 기본자음 + 5 쌍자음 + 10 모음
   2: 15,
   3: 15,
 } as const;
@@ -30,6 +35,10 @@ export default function JamoMode({ data, onSession }: JamoModeProps) {
   const [choices, setChoices] = useState<string[]>([]);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+
+  // TTS state
+  const [ttsText, setTtsText] = useState("");
+  const [ttsRepeat, setTtsRepeat] = useState<1 | 3>(1);
 
   // 레벨1: 기존 자모 문제 (셔플된 인덱스)
   const shuffledLevel1Order = useMemo(
@@ -130,6 +139,10 @@ export default function JamoMode({ data, onSession }: JamoModeProps) {
   const handleLevelChange = (newLevel: JamoGameLevel) => {
     if (newLevel === level) return;
 
+    // Stop TTS and reset state
+    stopKoreanSpeech();
+    setTtsText("");
+
     setLevel(newLevel);
     setPos(0);
     setCorrect(0);
@@ -156,6 +169,14 @@ export default function JamoMode({ data, onSession }: JamoModeProps) {
     const newCorrect = isAnswerCorrect ? correct + 1 : correct;
     const newWrong = isAnswerCorrect ? wrong : wrong + 1;
 
+    // Set TTS text for listening (both correct and wrong - to learn the answer)
+    // For Level 1: use prompt (jamo glyph like "ㄱ")
+    // For Level 2/3: use answer (syllable like "랴") - NOT the formula "ㄹ + ㅑ"
+    const textToSpeak = level === 1
+      ? (currentQuizData.prompt || "")
+      : (currentQuizData.answer || "");
+    setTtsText(textToSpeak);
+
     if (isAnswerCorrect) {
       setCorrect(newCorrect);
     } else {
@@ -163,12 +184,15 @@ export default function JamoMode({ data, onSession }: JamoModeProps) {
     }
 
     onSession(newCorrect, newWrong);
+  };
 
-    setTimeout(() => {
-      if (pos < total - 1) {
-        setPos((prev) => prev + 1);
-      }
-    }, 1000);
+  // 다음 문제로 이동
+  const handleNext = () => {
+    if (pos < total - 1) {
+      stopKoreanSpeech();
+      setTtsText("");
+      setPos((prev) => prev + 1);
+    }
   };
 
   const progress = ((pos + 1) / total) * 100;
@@ -304,6 +328,92 @@ export default function JamoMode({ data, onSession }: JamoModeProps) {
           <p className="font-semibold">
             {isCorrect ? "Correct! 🎉" : `Wrong! The answer is: ${currentQuizData.answer}`}
           </p>
+
+          {/* Action buttons - mobile optimized */}
+          <div className="mt-4 flex items-stretch gap-2">
+            {/* TTS Listen Button */}
+            {ttsText && (
+              <button
+                type="button"
+                onClick={() => speakKoreanRepeat(ttsText, ttsRepeat, 1000)}
+                className={`
+                  flex-1 inline-flex items-center justify-center gap-1
+                  py-2.5 px-2 rounded-xl
+                  bg-white/80 backdrop-blur
+                  font-semibold text-sm
+                  active:scale-[0.98]
+                  transition-all
+                  min-w-0
+                  ${isCorrect
+                    ? "border-2 border-emerald-300 text-emerald-700 hover:bg-emerald-100"
+                    : "border-2 border-rose-300 text-rose-700 hover:bg-rose-100"
+                  }
+                `}
+              >
+                <span>🔊</span>
+                <span className="truncate">
+                  {level === 1
+                    ? `Listen (${getKoreanSpeakText(ttsText)})`
+                    : `Listen "${ttsText}"`
+                  }
+                </span>
+              </button>
+            )}
+
+            {/* Repeat Toggle */}
+            {ttsText && (
+              <div className="flex items-center bg-white/60 backdrop-blur rounded-xl p-1 border border-slate-200 shrink-0">
+                <button
+                  type="button"
+                  onClick={() => setTtsRepeat(1)}
+                  className={`
+                    px-2.5 py-1.5 rounded-lg text-sm font-semibold transition-all
+                    ${ttsRepeat === 1
+                      ? "bg-violet-500 text-white shadow-md"
+                      : "text-slate-600 hover:bg-slate-100"
+                    }
+                  `}
+                >
+                  1x
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setTtsRepeat(3)}
+                  className={`
+                    px-2.5 py-1.5 rounded-lg text-sm font-semibold transition-all
+                    ${ttsRepeat === 3
+                      ? "bg-violet-500 text-white shadow-md"
+                      : "text-slate-600 hover:bg-slate-100"
+                    }
+                  `}
+                >
+                  3x
+                </button>
+              </div>
+            )}
+
+            {/* Next Button */}
+            {pos < total - 1 && (
+              <button
+                type="button"
+                onClick={handleNext}
+                className="
+                  flex-1 inline-flex items-center justify-center gap-1
+                  py-2.5 px-2 rounded-xl
+                  bg-gradient-to-r from-violet-500 to-purple-600
+                  text-white font-semibold text-sm
+                  shadow-lg shadow-violet-500/25
+                  hover:shadow-xl hover:shadow-violet-500/30
+                  active:scale-[0.98]
+                  transition-all
+                  min-w-0
+                "
+              >
+                <span className="truncate">Next</span>
+                <span>→</span>
+              </button>
+            )}
+          </div>
         </div>
       )}
     </div>

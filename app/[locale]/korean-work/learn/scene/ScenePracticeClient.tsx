@@ -148,6 +148,17 @@ function extractUtterance(choices: unknown): string | null {
   return null;
 }
 
+// Extract explanation from nested choices object
+function extractExplanation(choices: unknown): string | null {
+  if (choices && typeof choices === "object" && !Array.isArray(choices)) {
+    const obj = choices as Record<string, unknown>;
+    if ("explanation_ko" in obj && typeof obj.explanation_ko === "string" && obj.explanation_ko) {
+      return obj.explanation_ko;
+    }
+  }
+  return null;
+}
+
 export type TopicItem = {
   id: string;
   topic_id: string;
@@ -749,6 +760,15 @@ export default function ScenePracticeClient({
                   Correct:{" "}
                   <span className="font-medium">{correctAnswerText}</span>
                 </p>
+              )}
+              {/* Explanation */}
+              {extractExplanation(currentItem.choices) && (
+                <div className="mt-3 pt-3 border-t border-slate-200">
+                  <p className="text-sm font-medium text-slate-700 mb-1">💡 해설</p>
+                  <p className="text-sm text-slate-600">
+                    {extractExplanation(currentItem.choices)}
+                  </p>
+                </div>
               )}
             </div>
           )}
