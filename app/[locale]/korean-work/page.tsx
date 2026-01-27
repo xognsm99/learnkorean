@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import PrettyKoreanWordsHero from "@/app/components/home/PrettyKoreanWordsHero";
 
 export default function Page() {
   return (
@@ -43,11 +44,8 @@ export default function Page() {
               </span>
             </h1>
 
-            {/* Subtitle */}
-            <p className="text-lg sm:text-xl text-slate-500 mb-8 font-medium tracking-tight max-w-lg mx-auto leading-relaxed">
-              Speak the phrases you need in Korea
-            — delivery, office, hospital, and more.
-            </p>
+            {/* Pretty Korean Words Animation */}
+            <PrettyKoreanWordsHero />
 
             {/* USP Pills */}
             <div className="flex flex-wrap justify-center gap-3 mb-10">
@@ -147,6 +145,20 @@ export default function Page() {
               <p className="text-xs text-slate-500">쇼핑하기</p>
             </div>
           </div>
+
+          {/* Culture & Life Cards */}
+          <div className="grid grid-cols-2 gap-4 sm:gap-6 mt-4 sm:mt-6">
+            <div className="rounded-2xl p-6 bg-gradient-to-br from-rose-100 to-pink-50 border border-rose-200/50 text-center shadow-sm hover:shadow-md hover:scale-105 transition-all duration-300">
+              <span className="text-5xl block mb-3">🎎</span>
+              <p className="text-sm font-semibold text-slate-700">Korean Culture</p>
+              <p className="text-xs text-slate-500">한국문화</p>
+            </div>
+            <div className="rounded-2xl p-6 bg-gradient-to-br from-teal-100 to-cyan-50 border border-teal-200/50 text-center shadow-sm hover:shadow-md hover:scale-105 transition-all duration-300">
+              <span className="text-5xl block mb-3">🏠</span>
+              <p className="text-sm font-semibold text-slate-700">Daily Life</p>
+              <p className="text-xs text-slate-500">생활적응</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -157,7 +169,7 @@ export default function Page() {
             🎓 Learning Modes
           </h2>
           <p className="text-3xl sm:text-4xl font-bold text-center text-slate-900 mb-16 tracking-tight">
-            Six ways to master Korean 🚀
+            Seven ways to master Korean 🚀
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -316,6 +328,37 @@ export default function Page() {
               </p>
             </div>
 
+            {/* Speech Quiz Card */}
+            <div
+              className="
+                group rounded-3xl p-8
+                bg-white/60 backdrop-blur-2xl
+                border border-white/80
+                shadow-[0_4px_24px_rgba(0,0,0,0.04),inset_0_1px_0_rgba(255,255,255,0.8)]
+                hover:shadow-[0_8px_40px_rgba(0,0,0,0.08)]
+                hover:bg-white/80
+                transition-all duration-500
+              "
+            >
+              <div
+                className="
+                  flex items-center justify-center
+                  w-14 h-14 rounded-2xl mb-6
+                  bg-gradient-to-br from-indigo-500 to-purple-600
+                  text-white text-xl
+                  shadow-[0_4px_16px_rgba(99,102,241,0.3)]
+                  group-hover:scale-110 group-hover:rotate-3
+                  transition-transform duration-500
+                "
+              >
+                🎧
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Speech Quiz</h3>
+              <p className="text-slate-500 leading-relaxed">
+                Listen to Korean words and pick the correct answer to train your ear.
+              </p>
+            </div>
+
             {/* Scene Practice Card */}
             <div
               className="
@@ -361,10 +404,10 @@ export default function Page() {
               shadow-[0_4px_32px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.8)]
             "
           >
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
               <div>
                 <div className="text-2xl mb-1">🎮</div>
-                <div className="text-3xl sm:text-4xl font-bold text-slate-900 mb-2">6</div>
+                <div className="text-3xl sm:text-4xl font-bold text-slate-900 mb-2">7</div>
                 <p className="text-slate-400 text-sm font-medium">Quiz Modes</p>
               </div>
               <div>
@@ -381,6 +424,11 @@ export default function Page() {
                 <div className="text-2xl mb-1">🖼️</div>
                 <div className="text-3xl sm:text-4xl font-bold text-slate-900 mb-2">600+</div>
                 <p className="text-slate-400 text-sm font-medium">Image Quizzes</p>
+              </div>
+              <div>
+                <div className="text-2xl mb-1">🎧</div>
+                <div className="text-3xl sm:text-4xl font-bold text-slate-900 mb-2">300</div>
+                <p className="text-slate-400 text-sm font-medium">Speech Audio</p>
               </div>
               <div>
                 <div className="text-2xl mb-1">🎬</div>
@@ -400,7 +448,7 @@ export default function Page() {
       {/* Footer */}
       <footer className="px-6 py-12 text-center">
         <p className="text-slate-400 text-sm">
-          © 2025 Korean for Work. Made with 💙 for language learners.
+          © 2026 Korean for Work. Made with 💙 for language learners.
         </p>
       </footer>
     </main>

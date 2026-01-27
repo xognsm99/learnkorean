@@ -13,8 +13,9 @@ import EmojiVocabMode from "@/app/components/learn/modes/EmojiVocabMode";
 import InterviewMode from "@/app/components/learn/modes/InterviewMode";
 import KoreanQuizMode from "@/app/components/learn/modes/KoreanQuizMode";
 import ImageQuizMode from "@/app/components/learn/modes/ImageQuizMode";
+import SpeechQuizMode from "@/app/components/learn/modes/SpeechQuizMode";
 
-export type LearnMode = "jamo" | "emoji" | "interview" | "korean" | "image";
+export type LearnMode = "jamo" | "emoji" | "interview" | "korean" | "image" | "speech";
 
 export type LastSession = {
   lastMode: LearnMode;
@@ -46,6 +47,7 @@ export default function LearnHub() {
     if (mode === "emoji") return "Emoji Vocab";
     if (mode === "korean") return "Korean Quiz";
     if (mode === "image") return "Image Quiz";
+    if (mode === "speech") return "Speech Quiz";
     return "Interview Cards";
   }, [mode]);
 
@@ -54,6 +56,7 @@ export default function LearnHub() {
     if (mode === "emoji") return "Build vocabulary with emojis";
     if (mode === "korean") return "Test your Korean knowledge";
     if (mode === "image") return "Visual learning with real images";
+    if (mode === "speech") return "Listen and pick the right word";
     return "Practice job interview questions";
   }, [mode]);
 
@@ -130,6 +133,18 @@ export default function LearnHub() {
               iconBg="bg-gradient-to-br from-cyan-500 to-teal-600"
               onClick={() => {
                 setMode("image");
+                setScreen("play");
+              }}
+            />
+
+            <ModeCard
+              title="Speech Quiz"
+              desc="Listen and pick the right word"
+              icon="🎧"
+              gradient="from-indigo-500/20 to-purple-500/20"
+              iconBg="bg-gradient-to-br from-indigo-500 to-purple-600"
+              onClick={() => {
+                setMode("speech");
                 setScreen("play");
               }}
             />
@@ -296,6 +311,19 @@ export default function LearnHub() {
               onSession={(correct, wrong) =>
                 saveSession({
                   lastMode: "image",
+                  correct,
+                  wrong,
+                  updatedAt: new Date().toISOString(),
+                })
+              }
+            />
+          )}
+
+          {mode === "speech" && (
+            <SpeechQuizMode
+              onSession={(correct, wrong) =>
+                saveSession({
+                  lastMode: "speech",
                   correct,
                   wrong,
                   updatedAt: new Date().toISOString(),

@@ -3,6 +3,7 @@
 import { useState, useCallback, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabaseClient";
+import { useUser } from "@/app/components/auth/AuthProvider";
 
 // Fisher-Yates shuffle
 function shuffle<T>(arr: T[]): T[] {
@@ -186,7 +187,7 @@ type Props = {
   group?: string;
 };
 
-const USER_ID = "demo"; // Temporary user ID
+// USER_ID is now provided by AuthProvider (useUser hook)
 
 // Helper to determine item type
 function getItemType(item: TopicItem): string {
@@ -231,6 +232,8 @@ export default function ScenePracticeClient({
   locale,
   group,
 }: Props) {
+  const { user } = useUser();
+
   // Hydration fix: Don't shuffle on server, only on client
   const [sessionItems, setSessionItems] = useState<ProcessedItem[]>(initialItems);
   const [idx, setIdx] = useState(0);
@@ -340,7 +343,7 @@ export default function ScenePracticeClient({
     // Record attempt to Supabase (with error handling)
     try {
       await supabase.from("topic_attempts").insert({
-        user_id: USER_ID,
+        user_id: user?.id ?? "anon",
         topic_id: initialTopicId,
         item_id: currentItem.id,
         is_correct: correct,
@@ -351,7 +354,7 @@ export default function ScenePracticeClient({
       // Update progress
       await supabase.from("topic_progress").upsert(
         {
-          user_id: USER_ID,
+          user_id: user?.id ?? "anon",
           topic_id: initialTopicId,
           correct_count: correct ? score + 1 : score,
           total_count: idx + 1,
