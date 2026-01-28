@@ -1,6 +1,16 @@
 import { supabase } from "@/lib/supabaseClient";
 import type { ImageQuizItem, ImageQuizCategory } from "./data";
 
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+
+/** Get public URL for image quiz TTS audio from Supabase Storage */
+export function getImageQuizAudioUrl(audioPath: string | undefined): string | null {
+  if (!audioPath) return null;
+  // audio_path format: "image_quiz/food/0001.mp3"
+  // Storage path: audio bucket → audio/image_quiz/food/0001.mp3
+  return `${SUPABASE_URL}/storage/v1/object/public/audio/audio/${audioPath}`;
+}
+
 export async function fetchImageQuizByCategory(
   category: ImageQuizCategory
 ): Promise<ImageQuizItem[]> {

@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import Image from "next/image";
 import type { ImageQuizItem, ImageQuizCategory } from "@/app/lib/data";
 import {
   fetchImageQuizByCategory,
   shuffle,
   IMAGE_QUIZ_CATEGORIES,
+  getImageQuizAudioUrl,
 } from "@/app/lib/imageQuiz";
 
 interface ImageQuizModeProps {
@@ -28,6 +29,27 @@ export default function ImageQuizMode({ onSession }: ImageQuizModeProps) {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [showHint, setShowHint] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const playAudio = useCallback((audioPath: string | undefined) => {
+    const url = getImageQuizAudioUrl(audioPath);
+    if (!url) return;
+
+    // Stop current audio if playing
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
+
+    const audio = new Audio(url);
+    audioRef.current = audio;
+    setIsPlaying(true);
+
+    audio.onended = () => setIsPlaying(false);
+    audio.onerror = () => setIsPlaying(false);
+    audio.play().catch(() => setIsPlaying(false));
+  }, []);
 
   const handleCategorySelect = async (category: ImageQuizCategory) => {
     setSelectedCategory(category);
@@ -55,6 +77,19 @@ export default function ImageQuizMode({ onSession }: ImageQuizModeProps) {
 
   const currentQuiz = quizzes[pos];
   const total = quizzes.length;
+
+  // Auto-play audio when question changes
+  useEffect(() => {
+    if (currentQuiz?.audio_path && screen === "quiz") {
+      playAudio(currentQuiz.audio_path);
+    }
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, [pos, currentQuiz?.audio_path, screen, playAudio]);
 
   const options = useMemo(() => {
     if (!currentQuiz) return [];
@@ -350,6 +385,33 @@ export default function ImageQuizMode({ onSession }: ImageQuizModeProps) {
               </p>
             )}
           </div>
+          {/* TTS Audio Button */}
+          {currentQuiz.audio_path && (
+            <button
+              type="button"
+              onClick={() => playAudio(currentQuiz.audio_path)}
+              disabled={isPlaying}
+              className={`
+                flex-shrink-0 w-10 h-10 rounded-xl
+                flex items-center justify-center
+                transition-all duration-300
+                ${isPlaying
+                  ? "bg-cyan-500 text-white animate-pulse"
+                  : "bg-slate-100 text-slate-600 hover:bg-cyan-100 hover:text-cyan-600"
+                }
+              `}
+              title="Play pronunciation"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"
+                />
+              </svg>
+            </button>
+          )}
         </div>
       </div>
 

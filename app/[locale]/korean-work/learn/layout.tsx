@@ -1,14 +1,15 @@
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
 import { createClient } from "@/lib/supabase/server";
-import ReviewClient from "./ReviewClient";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-export default async function Page({
+export default async function LearnLayout({
+  children,
   params,
 }: {
+  children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
   const cookieStore = await cookies();
@@ -16,7 +17,7 @@ export default async function Page({
     .getAll()
     .filter((c) => c.name.startsWith("sb-"));
   console.log(
-    "[REVIEW guard] sb cookies:",
+    "[LEARN guard] sb cookies:",
     sbCookies.map((c) => `${c.name}(${c.value.length})`),
   );
 
@@ -26,12 +27,12 @@ export default async function Page({
     error,
   } = await supabase.auth.getUser();
 
-  console.log("[REVIEW guard] user?", !!user, "| err:", error?.message ?? "none");
+  console.log("[LEARN guard] user?", !!user, "| err:", error?.message ?? "none");
 
   if (!user) {
     const { locale } = await params;
-    redirect(`/${locale}/korean-work/login?next=/${locale}/korean-work/review`);
+    redirect(`/${locale}/korean-work/login?next=/${locale}/korean-work/learn`);
   }
 
-  return <ReviewClient />;
+  return <>{children}</>;
 }

@@ -113,6 +113,7 @@ export type ImageQuizItem = {
   rationale: string;
   rationale_en?: string;
   hint?: string;
+  audio_path?: string; // Supabase Storage path for TTS audio
 };
 
 // Session Result Types (review 페이지용)

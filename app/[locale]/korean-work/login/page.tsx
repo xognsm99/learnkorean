@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { createClient } from "@/lib/supabase/client";
 import Link from "next/link";
 
@@ -12,12 +12,46 @@ export default function LoginPage() {
 
   const supabase = createClient();
 
+  /* ── Read callback error from ?e= query param ──── */
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const e = params.get("e");
+    if (e) setError(decodeURIComponent(e));
+  }, []);
+
+  /* ── Mount check: already logged in? ────────────── */
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      if (user) {
+        const params = new URLSearchParams(window.location.search);
+        const next = params.get("next") ?? "/ko/korean-work/learn";
+        window.location.href = next;
+      }
+    });
+  }, [supabase]);
+
+  /* ── Client-side auth fallback ──────────────────── */
+  // Catches SIGNED_IN (new login) and INITIAL_SESSION (existing cookies).
+  useEffect(() => {
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((event, session) => {
+      if (
+        (event === "SIGNED_IN" || event === "INITIAL_SESSION") &&
+        session
+      ) {
+        const params = new URLSearchParams(window.location.search);
+        const next = params.get("next") ?? "/ko/korean-work/learn";
+        window.location.href = next;
+      }
+    });
+    return () => subscription.unsubscribe();
+  }, [supabase]);
+
   /** Save where to go after login, then return the clean callback URL */
   function prepareRedirect() {
-    // Read ?next= from the URL if middleware set it
     const params = new URLSearchParams(window.location.search);
     const next = params.get("next") ?? "/ko/korean-work/learn";
-    // Store in a cookie so the callback route can read it
     document.cookie = `auth_next=${encodeURIComponent(next)}; Path=/; Max-Age=300; SameSite=Lax`;
     return `${window.location.origin}/auth/callback`;
   }
