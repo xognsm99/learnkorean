@@ -95,9 +95,13 @@ export default function KoreanQuizMode({ onSession }: KoreanQuizModeProps) {
     setSelectedAnswer(null);
     setIsCorrect(null);
     setShowHint(false);
+    setShowResult(false);
   };
 
-  const isComplete = pos === total - 1 && selectedAnswer !== null;
+  // 마지막 문제 답변 후 결과 보기 버튼 클릭 여부
+  const [showResult, setShowResult] = useState(false);
+  const isLastQuestion = pos === total - 1 && selectedAnswer !== null;
+  const isComplete = showResult;
 
   // Loading state
   if (loading) {
@@ -378,7 +382,7 @@ export default function KoreanQuizMode({ onSession }: KoreanQuizModeProps) {
               뒤로
             </button>
           )}
-          {pos < total - 1 && (
+          {pos < total - 1 ? (
             <button
               type="button"
               onClick={handleNext}
@@ -393,6 +397,22 @@ export default function KoreanQuizMode({ onSession }: KoreanQuizModeProps) {
               "
             >
               다음
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setShowResult(true)}
+              className="
+                px-5 py-2.5 rounded-xl
+                bg-gradient-to-r from-emerald-500 to-teal-500
+                text-white text-sm font-semibold
+                shadow-lg shadow-emerald-500/25
+                hover:shadow-xl hover:shadow-emerald-500/30
+                active:scale-95
+                transition-all
+              "
+            >
+              결과 보기
             </button>
           )}
         </div>

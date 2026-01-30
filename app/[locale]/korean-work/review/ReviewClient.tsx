@@ -2,8 +2,10 @@
 
 import { useState, useEffect } from "react";
 import { getSessionResult, SessionResult } from "@/app/lib/data";
+import { useUser } from "@/app/components/auth/AuthProvider";
 
 export default function ReviewClient() {
+  const { user } = useUser();
   const [sessionResult, setSessionResult] = useState<SessionResult | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -13,6 +15,11 @@ export default function ReviewClient() {
     setIsLoading(false);
   }, []);
 
+  // 사용자 정보
+  const userName = user?.user_metadata?.full_name || user?.email?.split("@")[0] || "Guest";
+  const userAvatar: string | undefined = user?.user_metadata?.avatar_url;
+  const userInitial = userName.charAt(0).toUpperCase();
+
   const getModeLabel = (mode: SessionResult["lastMode"]): string => {
     switch (mode) {
       case "jamo":
@@ -21,8 +28,12 @@ export default function ReviewClient() {
         return "Emoji Vocab";
       case "interview":
         return "Interview Prep";
+      case "korean":
+        return "Korean Quiz";
+      case "image":
+        return "Image Quiz";
       default:
-        return "Unknown";
+        return "Quiz";
     }
   };
 
@@ -34,6 +45,10 @@ export default function ReviewClient() {
         return "🎯";
       case "interview":
         return "💼";
+      case "korean":
+        return "가";
+      case "image":
+        return "🖼️";
       default:
         return "📚";
     }
@@ -47,6 +62,10 @@ export default function ReviewClient() {
         return "from-amber-500 to-orange-500";
       case "interview":
         return "from-sky-500 to-blue-600";
+      case "korean":
+        return "from-emerald-500 to-teal-600";
+      case "image":
+        return "from-cyan-500 to-blue-600";
       default:
         return "from-slate-500 to-slate-600";
     }
@@ -109,25 +128,41 @@ export default function ReviewClient() {
                 shadow-2xl shadow-slate-900/10
               "
             >
-              {/* Mode Badge */}
-              <div className="flex items-center gap-4 mb-6">
+              {/* User Profile + Last Mode */}
+              <div className="flex items-center justify-between mb-6 pb-6 border-b border-slate-200/60">
+                <div className="flex items-center gap-4">
+                  {userAvatar ? (
+                    <img
+                      src={userAvatar}
+                      alt={userName}
+                      className="w-14 h-14 rounded-2xl border-2 border-white shadow-lg"
+                      referrerPolicy="no-referrer"
+                    />
+                  ) : (
+                    <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white text-xl font-bold shadow-lg">
+                      {userInitial}
+                    </div>
+                  )}
+                  <div>
+                    <h2 className="text-xl font-bold text-slate-900">
+                      {userName}
+                    </h2>
+                    <p className="text-sm text-slate-500">
+                      {formatDate(sessionResult.updatedAt)}
+                    </p>
+                  </div>
+                </div>
+                {/* Mode Badge */}
                 <div
                   className={`
-                    flex h-16 w-16 items-center justify-center
-                    rounded-2xl bg-gradient-to-br ${getModeGradient(sessionResult.lastMode)}
-                    text-2xl text-white font-bold
+                    flex h-12 w-12 items-center justify-center
+                    rounded-xl bg-gradient-to-br ${getModeGradient(sessionResult.lastMode)}
+                    text-xl text-white font-bold
                     shadow-lg
                   `}
+                  title={getModeLabel(sessionResult.lastMode)}
                 >
                   {getModeIcon(sessionResult.lastMode)}
-                </div>
-                <div>
-                  <h2 className="text-xl font-bold text-slate-900">
-                    {getModeLabel(sessionResult.lastMode)}
-                  </h2>
-                  <p className="text-sm text-slate-500">
-                    {formatDate(sessionResult.updatedAt)}
-                  </p>
                 </div>
               </div>
 
